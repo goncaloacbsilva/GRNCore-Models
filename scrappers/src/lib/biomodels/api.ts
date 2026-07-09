@@ -113,10 +113,10 @@ export class BiomodelsApiClient {
     const response = await this.withRetries(() =>
       this.client.get<BiomodelsSearchResponse>("/search", {
         params: {
-          query: options.query ?? "*:*",
+          query:
+            options.query ??
+            '*:* AND modellingapproach:"logical model" AND modelformat:"SBML"',
           sort: options.sort ?? "publication_date-desc",
-          modelFormats: "SBML",
-          modellingapproach: "logical model",
           offset: options.offset ?? 0,
           numResults: options.numResults ?? 100,
         },
