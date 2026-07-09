@@ -19,7 +19,7 @@ on:
 
 jobs:
   build:
-    if: github.event_name != 'push' || !startsWith(github.event.head_commit.message, 'chore: release model-fetchers v')
+    if: ${{ github.event_name != 'push' || !startsWith(github.event.head_commit.message, 'chore: release model-fetchers v') }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -39,7 +39,7 @@ jobs:
         run: npm install
 
       - name: Bump model fetchers version
-        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        if: ${{ github.ref == 'refs/heads/main' && github.event_name != 'pull_request' }}
         run: |
           npm version patch --workspace packages/model-fetchers --no-git-tag-version
           npm install --package-lock-only
@@ -61,7 +61,8 @@ jobs:
       - name: Resolve model fetchers version
         id: package_version
         run: |
-          echo "version=$(node -p "require('./packages/model-fetchers/package.json').version")" >> "$GITHUB_OUTPUT"
+          VERSION=$(node -p 'require("./packages/model-fetchers/package.json").version')
+          echo "version=${VERSION}" >> "$GITHUB_OUTPUT"
 
       - name: Upload model fetchers tarball
         uses: actions/upload-artifact@v4
@@ -70,7 +71,7 @@ jobs:
           path: artifacts/model-fetchers/*.tgz
 
       - name: Update README release URL
-        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        if: ${{ github.ref == 'refs/heads/main' && github.event_name != 'pull_request' }}
         run: |
           perl -0pi -e 's|https://github.com/goncaloacbsilva/GRNCore-Models/releases/download/model-fetchers-v[^/]+/grn-core-model-fetchers-\S+\.tgz|$ENV{RELEASE_URL}|g' README.md
         env:
@@ -78,7 +79,7 @@ jobs:
 
       - name: Commit release metadata
         id: release_commit
-        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        if: ${{ github.ref == 'refs/heads/main' && github.event_name != 'pull_request' }}
         run: |
           if git diff --quiet README.md packages/model-fetchers/package.json package-lock.json; then
             echo "Release metadata already up to date"
@@ -94,12 +95,12 @@ jobs:
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
       - name: Publish GitHub release
-        if: github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.ref == 'refs/heads/main')
+        if: ${{ github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.ref == 'refs/heads/main') }}
         uses: softprops/action-gh-release@v2
         with:
           tag_name: model-fetchers-v${{ steps.package_version.outputs.version }}
           name: model-fetchers v${{ steps.package_version.outputs.version }}
-          target_commitish: ${{ steps.release_commit.outputs.sha || github.sha }}
+          target_commitish: ${{ steps.release_commit.outputs.sha != '' && steps.release_commit.outputs.sha || github.sha }}
           generate_release_notes: true
           files: artifacts/model-fetchers/*.tgz
           overwrite_files: true
