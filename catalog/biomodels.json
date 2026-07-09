@@ -1,0 +1,16 @@
+{
+  "models": [
+    {
+      "id": "BIO1",
+      "title": "Bio 1",
+      "description": "Description 1",
+      "author": "Author 1",
+      "tags": [
+        "SBML-qual"
+      ],
+      "createdAt": 1704067200000,
+      "lastChangedAt": 1704153600000
+    }
+  ],
+  "filteredOut": []
+}
