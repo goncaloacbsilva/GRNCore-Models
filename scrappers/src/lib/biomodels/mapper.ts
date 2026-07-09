@@ -3,12 +3,13 @@ import {
     ModelMetadataSourceTags,
     type ModelMetadata,
 } from '../schema/model-metadata.js'
-import type { BiomodelsSearchItem } from './api.js'
+import type { BiomodelsModelDetails, BiomodelsSearchItem } from './api.js'
 
 const DEFAULT_SOURCE_TAG = ModelMetadataSourceTags.SBMLqual
 
 export function mapBiomodelsEntryToMetadata(
-    model: BiomodelsSearchItem
+    model: BiomodelsSearchItem,
+    details?: BiomodelsModelDetails
 ): ModelMetadata | null {
     const id = model.id ?? model.identifier
     if (!id) {
@@ -23,10 +24,16 @@ export function mapBiomodelsEntryToMetadata(
             model.authors?.[0],
             model.publication?.authors?.[0]
         ) ?? ''
-    const description = model.description?.trim() ?? ''
-    const createdAt = toEpochMs(model.curation?.created ?? model.created)
+    const description = extractDescription(details?.description)
+    const createdAt = toEpochMs(
+        model.submissionDate ?? model.curation?.created ?? model.created
+    )
     const lastChangedAt = toEpochMs(
-        model.curation?.modified ?? model.lastModified ?? model.created
+        model.curation?.modified ??
+            model.lastModified ??
+            model.submissionDate ??
+            model.curation?.created ??
+            model.created
     )
 
     return ModelMetadataSchema.parse({
@@ -40,8 +47,32 @@ export function mapBiomodelsEntryToMetadata(
     })
 }
 
+export function extractDescription(xmlDescription: string | undefined): string {
+    if (!xmlDescription) {
+        return ''
+    }
+
+    const descriptionMatch = xmlDescription.match(
+        /<div\b[^>]*class=["'][^"']*\bdc:description\b[^"']*["'][^>]*>([\s\S]*?)<\/div>/i
+    )
+    const content = descriptionMatch?.[1] ?? xmlDescription
+
+    return decodeXmlEntities(content.replace(/<[^>]+>/g, ' '))
+        .replace(/\s+/g, ' ')
+        .trim()
+}
+
 function pickFirstNonEmpty(...values: Array<string | undefined>): string | undefined {
     return values.find((value) => typeof value === 'string' && value.trim().length > 0)
+}
+
+function decodeXmlEntities(value: string): string {
+    return value
+        .replace(/&lt;/g, '<')
+        .replace(/&gt;/g, '>')
+        .replace(/&amp;/g, '&')
+        .replace(/&quot;/g, '"')
+        .replace(/&#39;/g, "'")
 }
 
 function toEpochMs(value: string | number | undefined): number {
@@ -58,4 +89,3 @@ function toEpochMs(value: string | number | undefined): number {
 
     return Date.now()
 }
-

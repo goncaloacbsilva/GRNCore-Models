@@ -11,12 +11,15 @@ const fetchAllSbmlModels = vi.fn(async () => [
     {
         id: 'BIO1',
         title: 'Bio 1',
-        description: 'Description 1',
         authors: ['Author 1'],
-        created: '2024-01-01T00:00:00.000Z',
+        submissionDate: '2024-01-01T00:00:00.000Z',
         lastModified: '2024-01-02T00:00:00.000Z',
     },
 ])
+const fetchModelDetails = vi.fn(async () => ({
+    description:
+        '<notes><body><div class="dc:description"><p>Description 1</p></div></body></notes>',
+}))
 
 vi.mock('../src/lib/biomodels/api.js', async () => {
     const actual = await vi.importActual('../src/lib/biomodels/api.js')
@@ -28,6 +31,10 @@ vi.mock('../src/lib/biomodels/api.js', async () => {
 
         async fetchAllSbmlModels(): Promise<unknown[]> {
             return fetchAllSbmlModels()
+        }
+
+        async fetchModelDetails(): Promise<unknown> {
+            return fetchModelDetails()
         }
     }
 
@@ -52,11 +59,15 @@ describe('runRegisteredScrappers', () => {
 
         const raw = await readFile(path.join(catalogDirectory, 'biomodels.json'), 'utf8')
         const catalog = JSON.parse(raw) as {
-            models: Array<{ id: string }>
+            models: Array<{ id: string; description: string; createdAt: number }>
             filteredOut: string[]
         }
 
         expect(catalog.models.map((model) => model.id)).toEqual(['BIO1'])
+        expect(catalog.models[0]?.description).toBe('Description 1')
+        expect(catalog.models[0]?.createdAt).toBe(
+            Date.parse('2024-01-01T00:00:00.000Z')
+        )
         expect(catalog.filteredOut).toEqual([])
     })
 })

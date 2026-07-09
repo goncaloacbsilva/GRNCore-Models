@@ -1,6 +1,9 @@
 import { describe, expect, it, vi } from 'vitest'
 
-import { mapBiomodelsEntryToMetadata } from '../src/lib/biomodels/mapper.js'
+import {
+    extractDescription,
+    mapBiomodelsEntryToMetadata,
+} from '../src/lib/biomodels/mapper.js'
 
 describe('mapBiomodelsEntryToMetadata', () => {
     it('maps a BioModels entry into ModelMetadata', () => {
@@ -10,10 +13,13 @@ describe('mapBiomodelsEntryToMetadata', () => {
         const metadata = mapBiomodelsEntryToMetadata({
             id: 'BIOMD0000000001',
             name: 'Cell Cycle',
-            description: 'Model description',
             authors: ['Jane Doe'],
+            submissionDate: '2024-01-01T00:00:00.000Z',
             created: '2024-01-01T00:00:00.000Z',
             lastModified: '2024-02-01T00:00:00.000Z',
+        }, {
+            description:
+                '<notes><body><div class="dc:description"><p>Model description</p></div></body></notes>',
         })
 
         expect(metadata).toEqual({
@@ -36,5 +42,12 @@ describe('mapBiomodelsEntryToMetadata', () => {
             })
         ).toBeNull()
     })
-})
 
+    it('extracts a plain-text description from BioModels XML notes', () => {
+        expect(
+            extractDescription(
+                '<notes><body><div class="dc:title">Title</div><div class="dc:description"><p>Alpha <b>Beta</b> &amp; Gamma</p></div></body></notes>'
+            )
+        ).toBe('Alpha Beta & Gamma')
+    })
+})
