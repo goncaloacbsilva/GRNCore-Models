@@ -1,4 +1,4 @@
-name: Sync Catalog
+name: Catalog Sync
 
 on:
   schedule:
@@ -22,15 +22,16 @@ jobs:
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: scrappers/package-lock.json
+          cache-dependency-path: package-lock.json
 
       - name: Install dependencies
-        working-directory: scrappers
         run: npm install
 
+      - name: Run scrapper tests
+        run: npm --workspace scrappers test
+
       - name: Run catalog sync
-        working-directory: scrappers
-        run: npm run sync
+        run: npm --workspace scrappers run sync
 
       - name: Commit catalog changes
         run: |

@@ -1,0 +1,13 @@
+{
+  "name": "grn-core-community-models",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "scrappers",
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "npm run test --workspaces --if-present"
+  }
+}
+
