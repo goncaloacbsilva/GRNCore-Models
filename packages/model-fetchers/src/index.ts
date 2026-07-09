@@ -34,6 +34,11 @@ export async function fetchCatalogs(): Promise<FetchedCatalogs> {
     return client.fetchCatalogs()
 }
 
+export async function getCatalogVersion(): Promise<string> {
+    const client = new GithubCatalogClient()
+    return client.getCatalogVersion()
+}
+
 export const REGISTERED_MODEL_FETCHER_SOURCES = Object.keys(
     MODEL_FETCHERS
 ) as SourceKey[]

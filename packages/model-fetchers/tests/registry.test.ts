@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest'
 
 import {
     fetchCatalogs,
+    getCatalogVersion,
     getModelFetcher,
     listSupportedSources,
     REGISTERED_MODEL_FETCHER_SOURCES,
@@ -31,5 +32,14 @@ describe('model fetcher registry', () => {
             biomodels: {},
         })
         expect(fetchCatalogsSpy).toHaveBeenCalledOnce()
+    })
+
+    it('getCatalogVersion delegates to the GitHub catalog client', async () => {
+        const getCatalogVersionSpy = vi
+            .spyOn(catalogClientModule.GithubCatalogClient.prototype, 'getCatalogVersion')
+            .mockResolvedValue('abc123')
+
+        await expect(getCatalogVersion()).resolves.toBe('abc123')
+        expect(getCatalogVersionSpy).toHaveBeenCalledOnce()
     })
 })
