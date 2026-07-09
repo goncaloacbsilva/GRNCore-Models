@@ -1,11 +1,10 @@
 import {
     ModelMetadataSchema,
     ModelMetadataSourceTags,
+    type ModelMetadataSourceTag,
     type ModelMetadata,
 } from '../schema/model-metadata.js'
 import type { BiomodelsModelDetails, BiomodelsSearchItem } from './api.js'
-
-const DEFAULT_SOURCE_TAG = ModelMetadataSourceTags.SBMLqual
 
 export function mapBiomodelsEntryToMetadata(
     model: BiomodelsSearchItem,
@@ -41,7 +40,7 @@ export function mapBiomodelsEntryToMetadata(
         title,
         description,
         author,
-        tags: [DEFAULT_SOURCE_TAG],
+        tags: mapSourceTags(model.format),
         createdAt,
         lastChangedAt,
     })
@@ -64,6 +63,41 @@ export function extractDescription(xmlDescription: string | undefined): string {
 
 function pickFirstNonEmpty(...values: Array<string | undefined>): string | undefined {
     return values.find((value) => typeof value === 'string' && value.trim().length > 0)
+}
+
+function mapSourceTags(format: string | string[] | undefined): ModelMetadataSourceTag[] {
+    const formats = normalizeFormats(format)
+    const tags = new Set<ModelMetadataSourceTag>()
+
+    for (const item of formats) {
+        if (item === 'SBML') {
+            tags.add(ModelMetadataSourceTags.SBMLqual)
+        }
+
+        if (item === 'GINML') {
+            tags.add(ModelMetadataSourceTags.GINML)
+        }
+
+        if (item === 'BNET') {
+            tags.add(ModelMetadataSourceTags.BNET)
+        }
+    }
+
+    return [...tags]
+}
+
+function normalizeFormats(format: string | string[] | undefined): string[] {
+    if (typeof format === 'string') {
+        return [format.trim().toUpperCase()].filter((value) => value.length > 0)
+    }
+
+    if (Array.isArray(format)) {
+        return format
+            .map((value) => value.trim().toUpperCase())
+            .filter((value) => value.length > 0)
+    }
+
+    return []
 }
 
 function decodeXmlEntities(value: string): string {

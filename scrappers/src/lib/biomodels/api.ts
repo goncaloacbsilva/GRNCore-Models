@@ -17,6 +17,7 @@ export type BiomodelsSearchItem = {
     name?: string
     title?: string
     description?: string
+    format?: string | string[]
     submissionDate?: string | number
     authors?: string[]
     submitter?: string

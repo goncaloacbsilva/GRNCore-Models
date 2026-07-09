@@ -13,6 +13,7 @@ describe('mapBiomodelsEntryToMetadata', () => {
         const metadata = mapBiomodelsEntryToMetadata({
             id: 'BIOMD0000000001',
             name: 'Cell Cycle',
+            format: 'SBML',
             authors: ['Jane Doe'],
             submissionDate: '2024-01-01T00:00:00.000Z',
             created: '2024-01-01T00:00:00.000Z',
@@ -41,6 +42,22 @@ describe('mapBiomodelsEntryToMetadata', () => {
                 title: 'Missing identifier',
             })
         ).toBeNull()
+    })
+
+    it('does not add a source tag when the model format is not supported', () => {
+        const metadata = mapBiomodelsEntryToMetadata(
+            {
+                id: 'BIOMD0000000002',
+                name: 'Plain model',
+                format: 'UNKNOWN',
+            },
+            {
+                description:
+                    '<notes><body><div class="dc:description"><p>Text</p></div></body></notes>',
+            }
+        )
+
+        expect(metadata?.tags).toEqual([])
     })
 
     it('extracts a plain-text description from BioModels XML notes', () => {

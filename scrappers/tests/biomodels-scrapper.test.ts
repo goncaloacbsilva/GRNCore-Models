@@ -75,6 +75,7 @@ describe('BiomodelsScrapper', () => {
                 {
                     id: 'BIO1',
                     title: 'Bio 1',
+                    format: 'SBML',
                     authors: ['Author 1'],
                     submissionDate: '2024-01-01T00:00:00.000Z',
                     lastModified: '2024-01-02T00:00:00.000Z',
@@ -82,6 +83,7 @@ describe('BiomodelsScrapper', () => {
                 {
                     id: 'BIO2',
                     title: 'Bio 2',
+                    format: 'SBML',
                     authors: ['Author 2'],
                     submissionDate: '2024-01-03T00:00:00.000Z',
                     lastModified: '2024-01-04T00:00:00.000Z',
@@ -142,6 +144,7 @@ describe('BiomodelsScrapper', () => {
                 {
                     id: 'BIO1',
                     title: 'Bio 1',
+                    format: 'SBML',
                     authors: ['Author 1'],
                     submissionDate: '2024-01-01T00:00:00.000Z',
                     lastModified: '2024-01-02T00:00:00.000Z',

@@ -11,6 +11,7 @@ const fetchAllSbmlModels = vi.fn(async () => [
     {
         id: 'BIO1',
         title: 'Bio 1',
+        format: 'SBML',
         authors: ['Author 1'],
         submissionDate: '2024-01-01T00:00:00.000Z',
         lastModified: '2024-01-02T00:00:00.000Z',
