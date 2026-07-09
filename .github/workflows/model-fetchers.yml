@@ -19,7 +19,7 @@ on:
 
 jobs:
   build:
-    if: ${{ github.event_name != 'push' || !startsWith(github.event.head_commit.message, 'chore: release model-fetchers v') }}
+    if: ${{ github.event_name != 'push' || startsWith(github.event.head_commit.message, 'chore: release model-fetchers v') == false }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
