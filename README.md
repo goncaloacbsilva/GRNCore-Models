@@ -22,7 +22,7 @@ To include it in a project, install the package tarball published in the reposit
 
 Current release package:
 
-- https://github.com/goncaloacbsilva/GRNCore-Models/releases/download/model-fetchers-v<version>/grn-core-model-fetchers-<version>.tgz
+- https://github.com/goncaloacbsilva/GRNCore-Models/releases/download/model-fetchers-v0.1.0/grn-core-model-fetchers-0.1.0.tgz
 
 Install with npm:
 
