@@ -14,7 +14,7 @@ Package name:
 
 - `@grn-core/model-fetchers`
 
-The library is published by this repository's GitHub Actions workflow as a Node package tarball artifact.
+The library is published by this repository's GitHub Actions workflow as a Node package tarball release asset.
 
 To include it in a project, install the package tarball published in the repository releases:
 

@@ -76,8 +76,7 @@ jobs:
       - name: Update README release URL
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         run: |
-          RELEASE_URL="https://github.com/goncaloacbsilva/GRNCore-Models/releases/download/model-fetchers-v${{ steps.package_version.outputs.version }}/${{ steps.pack_model_fetchers.outputs.tarball_name }}"
-          perl -0pi -e "s|https://github.com/goncaloacbsilva/GRNCore-Models/releases/download/model-fetchers-v[^/]+/grn-core-model-fetchers-[^\\s`]+\\.tgz|$ENV{RELEASE_URL}|g" README.md
+          perl -0pi -e 's|https://github.com/goncaloacbsilva/GRNCore-Models/releases/download/model-fetchers-v[^/]+/grn-core-model-fetchers-\S+\.tgz|$ENV{RELEASE_URL}|g' README.md
         env:
           RELEASE_URL: https://github.com/goncaloacbsilva/GRNCore-Models/releases/download/model-fetchers-v${{ steps.package_version.outputs.version }}/${{ steps.pack_model_fetchers.outputs.tarball_name }}
 
