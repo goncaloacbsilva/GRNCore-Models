@@ -16,10 +16,14 @@ Package name:
 
 The library is published by this repository's GitHub Actions workflow as a Node package tarball artifact.
 
-To include it in a project, install the generated `.tgz` package file:
+To include it in a project, install the package tarball published in the repository releases:
+
+- https://github.com/goncaloacbsilva/GRNCore-Models/releases
+
+Example:
 
 ```bash
-npm install ./grn-core-model-fetchers-0.1.0.tgz
+npm install https://github.com/goncaloacbsilva/GRNCore-Models/releases/download/<tag>/grn-core-model-fetchers-<version>.tgz
 ```
 
 The library provides:
