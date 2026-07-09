@@ -1,47 +1,33 @@
 # GRNCore Community Models Catalog
 
-This repository stores source catalogs for GRNCore community model discovery and the scraper code that keeps those catalogs synchronized.
+This repository hosts public model catalogs and model-fetching utilities for GRNCore community model sources.
 
-## Structure
+## Supported Sources
 
-- `catalog/`: source-specific JSON catalogs
-- `scrappers/`: TypeScript CLI project that synchronizes catalogs
-- `.github/workflows/`: scheduled and manual synchronization workflow
+- BioModels
+  - Website: https://www.biomodels.org/
+  - Documentation: https://www.biomodels.org/docs/
 
-## BioModels catalog
+## Model Fetchers Setup
 
-The first supported source is BioModels. Its catalog file is:
-
-- `catalog/biomodels.json`
-
-The file stores:
-
-- `models`: an array of `ModelMetadata`
-- `filteredOut`: BioModels-specific IDs that should not be retried in future syncs
-
-## Local usage
-
-Install dependencies:
+Install workspace dependencies from the repository root:
 
 ```bash
-cd scrappers
 npm install
 ```
 
-Run the sync CLI:
+Build the `model-fetchers` library:
 
 ```bash
-npm run sync
+npm --workspace packages/model-fetchers run build
 ```
 
-Run tests:
+Run the `model-fetchers` tests:
 
 ```bash
-npm test
+npm --workspace packages/model-fetchers test
 ```
 
-## Notes
+Package name:
 
-- The BioModels API integration is isolated behind a dedicated scraper and mapping helper so request parameters or payload mapping can be adjusted without changing the shared synchronization flow.
-- The metadata shape mirrors the GRNCore `ModelMetadata` contract.
-
+- `@grn-core/model-fetchers`
