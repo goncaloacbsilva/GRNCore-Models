@@ -6,6 +6,7 @@ import {
     type SourceKey,
 } from '../../shared/source-registry.js'
 import { BiomodelsScrapper } from './scrappers/biomodels-scrapper.js'
+import { GinsimScrapper } from './scrappers/ginsim-scrapper.js'
 import type { AbstractCatalogScrapper } from './lib/catalog/abstract-catalog-scrapper.js'
 
 export const SCRAPPER_FACTORIES: Record<
@@ -13,6 +14,7 @@ export const SCRAPPER_FACTORIES: Record<
     (catalogDirectory: string) => AbstractCatalogScrapper<unknown>
 > = {
     biomodels: (catalogDirectory: string) => new BiomodelsScrapper(catalogDirectory),
+    ginsim: (catalogDirectory: string) => new GinsimScrapper(catalogDirectory),
 }
 
 export async function runRegisteredScrappers(

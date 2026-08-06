@@ -4,6 +4,11 @@ export const SOURCE_REGISTRATIONS = [
         hasScraper: true,
         hasFetcher: true,
     },
+    {
+        key: 'ginsim',
+        hasScraper: true,
+        hasFetcher: true,
+    },
 ] as const
 
 export type SourceRegistration = (typeof SOURCE_REGISTRATIONS)[number]

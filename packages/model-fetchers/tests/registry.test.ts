@@ -12,8 +12,8 @@ import { vi } from 'vitest'
 
 describe('model fetcher registry', () => {
     it('exposes only supported sources', () => {
-        expect(listSupportedSources()).toEqual(['biomodels'])
-        expect(REGISTERED_MODEL_FETCHER_SOURCES).toEqual(['biomodels'])
+        expect(listSupportedSources()).toEqual(['biomodels', 'ginsim'])
+        expect(REGISTERED_MODEL_FETCHER_SOURCES).toEqual(['biomodels', 'ginsim'])
     })
 
     it('returns a BioModels fetcher instance', () => {
@@ -21,15 +21,22 @@ describe('model fetcher registry', () => {
         expect(fetcher.source).toBe('biomodels')
     })
 
+    it('returns a GINsim fetcher instance', () => {
+        const fetcher = getModelFetcher('ginsim')
+        expect(fetcher.source).toBe('ginsim')
+    })
+
     it('fetchCatalogs requests exactly the supported source set', async () => {
         const fetchCatalogsSpy = vi
             .spyOn(catalogClientModule.GithubCatalogClient.prototype, 'fetchCatalogs')
             .mockResolvedValue({
                 biomodels: {},
+                ginsim: {},
             })
 
         await expect(fetchCatalogs()).resolves.toEqual({
             biomodels: {},
+            ginsim: {},
         })
         expect(fetchCatalogsSpy).toHaveBeenCalledOnce()
     })

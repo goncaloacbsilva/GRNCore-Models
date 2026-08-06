@@ -23,7 +23,7 @@ describe('GithubCatalogClient', () => {
 
                 return {
                     data: {
-                        source: 'biomodels',
+                        source: path.includes('ginsim') ? 'ginsim' : 'biomodels',
                     },
                 }
             },
@@ -33,8 +33,11 @@ describe('GithubCatalogClient', () => {
             biomodels: {
                 source: 'biomodels',
             },
+            ginsim: {
+                source: 'ginsim',
+            },
         })
-        expect(requests).toEqual(['/catalog/biomodels.json'])
+        expect(requests).toEqual(['/catalog/biomodels.json', '/catalog/ginsim.json'])
     })
 
     it('fails when one catalog request errors', async () => {
@@ -56,6 +59,7 @@ describe('GithubCatalogClient', () => {
 
         await expect(client.fetchCatalogs()).resolves.toEqual({
             biomodels: 'not-a-json-object',
+            ginsim: 'not-a-json-object',
         })
     })
 

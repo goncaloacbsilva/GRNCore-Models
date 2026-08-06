@@ -5,7 +5,7 @@ export type FetchedModel = {
     contentType?: string
 }
 
-export type SupportedFetcherSource = 'biomodels'
+export type SupportedFetcherSource = 'biomodels' | 'ginsim'
 
 export interface ModelFetcher {
     readonly source: SupportedFetcherSource

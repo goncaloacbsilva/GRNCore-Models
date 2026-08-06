@@ -3,6 +3,7 @@ import {
     type SourceKey,
 } from '../../../shared/source-registry.js'
 import { BiomodelsModelFetcher } from './lib/biomodels/biomodels-fetcher.js'
+import { GinsimModelFetcher } from './lib/ginsim/ginsim-fetcher.js'
 import {
     GithubCatalogClient,
     type FetchedCatalogs,
@@ -11,9 +12,11 @@ import type { FetchedModel, ModelFetcher } from './types.js'
 
 const MODEL_FETCHERS: Record<SourceKey, () => ModelFetcher> = {
     biomodels: () => new BiomodelsModelFetcher(),
+    ginsim: () => new GinsimModelFetcher(),
 }
 
 export { BiomodelsModelFetcher }
+export { GinsimModelFetcher }
 export type { FetchedCatalogs, FetchedModel, ModelFetcher }
 
 export function listSupportedSources(): SourceKey[] {

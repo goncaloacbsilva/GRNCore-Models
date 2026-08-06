@@ -45,6 +45,29 @@ vi.mock('../src/lib/biomodels/api.js', async () => {
     }
 })
 
+vi.mock('../src/lib/ginsim/api.js', async () => {
+    const actual = await vi.importActual('../src/lib/ginsim/api.js')
+
+    class MockGinsimApiClient {
+        async fetchModelsCommit(): Promise<string> {
+            return 'ginsim-commit'
+        }
+
+        async fetchModelsTree(): Promise<unknown[]> {
+            return []
+        }
+
+        async fetchTextFile(): Promise<string> {
+            return ''
+        }
+    }
+
+    return {
+        ...actual,
+        GinsimApiClient: MockGinsimApiClient,
+    }
+})
+
 describe('runRegisteredScrappers', () => {
     it('updates the BioModels catalog through the registry entrypoint', async () => {
         const directory = await mkdtemp(path.join(os.tmpdir(), 'cli-'))

@@ -1,0 +1,1371 @@
+{
+  "sourceCommit": "ff41ed39ab4927f10e9efca15ff6469c422c8b84",
+  "models": [
+    {
+      "id": "bW9kZWxzLzE5OTUtbGFtYmRhLWx5c2lzLWx5c29nZW55L3BoYWdlMi56Z2lubWw",
+      "title": "Lysis vs lysogeny decision in the phage lambda",
+      "description": "A number of bacterial and viral genes take part in the decision between lysis and lysogenisation in temperate bacteriophages. In the case of the bacteriophage lambda, at least 5 viral regulatory products (CI, Cro, CII, N and CIII) and several bacterial genes are involved (see 1 for an excellent overview).",
+      "author": "Thieffry, Denis and Thomas, René",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 788918400000,
+      "lastChangedAt": 788918400000,
+      "filename": "phage2.zginml",
+      "sourcePath": "models/1995-lambda-lysis-lysogeny/phage2.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/1995-lambda-lysis-lysogeny/phage2.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzE5OTUtbGFtYmRhLWx5c2lzLWx5c29nZW55L3BoYWdlNF9hbHRlcm5hdGUuemdpbm1s",
+      "title": "Lysis vs lysogeny decision in the phage lambda",
+      "description": "A number of bacterial and viral genes take part in the decision between lysis and lysogenisation in temperate bacteriophages. In the case of the bacteriophage lambda, at least 5 viral regulatory products (CI, Cro, CII, N and CIII) and several bacterial genes are involved (see 1 for an excellent overview).",
+      "author": "Thieffry, Denis and Thomas, René",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 788918400000,
+      "lastChangedAt": 788918400000,
+      "filename": "phage4_alternate.zginml",
+      "sourcePath": "models/1995-lambda-lysis-lysogeny/phage4_alternate.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/1995-lambda-lysis-lysogeny/phage4_alternate.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzE5OTUtbGFtYmRhLWx5c2lzLWx5c29nZW55L3BoYWdlTGFtYmRhNC56Z2lubWw",
+      "title": "Lysis vs lysogeny decision in the phage lambda",
+      "description": "Four components logical model",
+      "author": "Thieffry, Denis and Thomas, René",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 788918400000,
+      "lastChangedAt": 788918400000,
+      "filename": "phageLambda4.zginml",
+      "sourcePath": "models/1995-lambda-lysis-lysogeny/phageLambda4.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/1995-lambda-lysis-lysogeny/phageLambda4.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMDEtZHJvc29waGlsYS1nYXAvZ2FwQi56Z2lubWw",
+      "title": "Gap Model",
+      "description": "Regulatory model (B)",
+      "author": "Sánchez, Lucas and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 978307200000,
+      "lastChangedAt": 978307200000,
+      "filename": "gapB.zginml",
+      "sourcePath": "models/2001-drosophila-gap/gapB.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2001-drosophila-gap/gapB.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMDEtZHJvc29waGlsYS1nYXAvZ2FwQS56Z2lubWw",
+      "title": "Gap Model",
+      "description": "Regulatory model (A)",
+      "author": "Sánchez, Lucas and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 978307200000,
+      "lastChangedAt": 978307200000,
+      "filename": "gapA.zginml",
+      "sourcePath": "models/2001-drosophila-gap/gapA.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2001-drosophila-gap/gapA.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMDEtZHJvc29waGlsYS1nYXAvZ2FwQy56Z2lubWw",
+      "title": "Gap Model",
+      "description": "Regulatory model (C)",
+      "author": "Sánchez, Lucas and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 978307200000,
+      "lastChangedAt": 978307200000,
+      "filename": "gapC.zginml",
+      "sourcePath": "models/2001-drosophila-gap/gapC.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2001-drosophila-gap/gapC.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMDEtZHJvc29waGlsYS1nYXAvZ2FwRC56Z2lubWw",
+      "title": "Gap Model",
+      "description": "Regulatory model (D)",
+      "author": "Sánchez, Lucas and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 978307200000,
+      "lastChangedAt": 978307200000,
+      "filename": "gapD.zginml",
+      "sourcePath": "models/2001-drosophila-gap/gapD.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2001-drosophila-gap/gapD.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMDgtbWFtbWFsLXN1cnZpdmFsLXRsZ2wtbGV1a2VtaWEvVF9MR0wuemdpbm1s",
+      "title": "Network model of survival signaling in large granular lymphocyte leukemia (Zhang et al 2008)",
+      "description": "Zhang et al. defined a logical model of the T-LGL survival signaling network to investigate the signaling components that determine the survival of CTL in T-LGL leukemia.",
+      "author": "Zhang, Ranran and Shah, Mithun Vinod and Yang, Jun and Nyland, Susan B. and Liu, Xin and Yun, Jong K. and Albert, Réka and Loughran, Thomas P.",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1199145600000,
+      "lastChangedAt": 1199145600000,
+      "filename": "T_LGL.zginml",
+      "sourcePath": "models/2008-mammal-survival-tlgl-leukemia/T_LGL.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2008-mammal-survival-tlgl-leukemia/T_LGL.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMDgtYnVkZGluZy15ZWFzdC1jZWxsLWN5Y2xlL2J1ZGRpbmdZZWFzdE9ybGFuZG8yMDA4LnpnaW5tbA",
+      "title": "Budding yeast cell cycle (Orlando et al. 2008)",
+      "description": "Budding yeast cell cycle (Orlando et al. 2008)",
+      "author": "Fauré, Adrien and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1230768000000,
+      "lastChangedAt": 1230768000000,
+      "filename": "buddingYeastOrlando2008.zginml",
+      "sourcePath": "models/2008-budding-yeast-cell-cycle/buddingYeastOrlando2008.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2008-budding-yeast-cell-cycle/buddingYeastOrlando2008.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMDgtZHJvc29waGlsYS1BUC1ib3VuZGFyeS9hcF9ib3VuZGFyeS56Z2lubWw",
+      "title": "The Anterior-Posterior Boundary (Gonzalez et al. 2008)",
+      "description": "The Hedgehog (Hh) signalling pathway plays a crucial role in animal embryonic and organ development. In the wing imaginal disc of Drosophila melanogaster, Hh is induced and diffuses from the posterior compartment to activate the corresponding pathway in cells immediately anterior to the boundary. In these boundary cells, the Hh gradient induces target genes in distinct domains as a function of the Hh concentration. One Hh target is its own receptor Patched (Ptc), which sequesters Hh and impedes further diffusion, thereby refining the boundary.",
+      "author": "González, Aitor and Chaouiya, Claudine and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1199145600000,
+      "lastChangedAt": 1199145600000,
+      "filename": "ap_boundary.zginml",
+      "sourcePath": "models/2008-drosophila-AP-boundary/ap_boundary.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2008-drosophila-AP-boundary/ap_boundary.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMDgtZHJvc29waGlsYS1zZWdtZW50LXBvbGFyaXR5L1NQXzFjZWxsLnpnaW5tbA",
+      "title": "Segment polarity module (Sánchez et al. 2008)",
+      "description": "Initially activated by the pair-rule genes, the expression patterns of the segment polarity genes engrailed and wingless become consolidated through inter-cellular interactions between juxtaposed cells. Here, we delineate a logical model focusing on a dozen molecular components at the core of the regulatory network controlling this process. Our model analysis leads to the following conclusions:",
+      "author": "Sanchez, Lucas and Chaouiya, Claudine and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1199145600000,
+      "lastChangedAt": 1199145600000,
+      "filename": "SP_1cell.zginml",
+      "sourcePath": "models/2008-drosophila-segment-polarity/SP_1cell.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2008-drosophila-segment-polarity/SP_1cell.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMDgtZHJvc29waGlsYS1zZWdtZW50LXBvbGFyaXR5L1NQXzZjZWxscy56Z2lubWw",
+      "title": "Segment polarity module (Sánchez et al. 2008)",
+      "description": "Initially activated by the pair-rule genes, the expression patterns of the segment polarity genes engrailed and wingless become consolidated through inter-cellular interactions between juxtaposed cells. Here, we delineate a logical model focusing on a dozen molecular components at the core of the regulatory network controlling this process. Our model analysis leads to the following conclusions:",
+      "author": "Sanchez, Lucas and Chaouiya, Claudine and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1199145600000,
+      "lastChangedAt": 1199145600000,
+      "filename": "SP_6cells.zginml",
+      "sourcePath": "models/2008-drosophila-segment-polarity/SP_6cells.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2008-drosophila-segment-polarity/SP_6cells.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMDgtZmlzc2lvbi15ZWFzdC1jZWxsLWN5Y2xlL2Zpc3Npb25ZZWFzdERhdmlkaWNoMjAwOC56Z2lubWw",
+      "title": "Fission Yeast Cell Cycle (Davidich and Bornholdt, 2008)",
+      "description": "Fission Yeast cell cycle (from Davidich & Bornholdt)",
+      "author": "Fauré, Adrien and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1230768000000,
+      "lastChangedAt": 1230768000000,
+      "filename": "fissionYeastDavidich2008.zginml",
+      "sourcePath": "models/2008-fission-yeast-cell-cycle/fissionYeastDavidich2008.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2008-fission-yeast-cell-cycle/fissionYeastDavidich2008.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMDgtZmlzc2lvbi15ZWFzdC1jZWxsLWN5Y2xlL2Zpc3Npb25ZZWFzdERhdmlkaWNoMjAwOE1vZGlmaWVkLnpnaW5tbA",
+      "title": "Fission Yeast Cell Cycle (Davidich and Bornholdt, 2008)",
+      "description": "Fission Yeast cell cycle (adapted from Davidich & Bornholdt)",
+      "author": "Fauré, Adrien and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1230768000000,
+      "lastChangedAt": 1230768000000,
+      "filename": "fissionYeastDavidich2008Modified.zginml",
+      "sourcePath": "models/2008-fission-yeast-cell-cycle/fissionYeastDavidich2008Modified.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2008-fission-yeast-cell-cycle/fissionYeastDavidich2008Modified.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMDktaHVtYW4tZXJiYi1nMXMtdHJhbnNpdGlvbi9FcmJCMl9tb2RlbC56Z2lubWw",
+      "title": "ERBB receptor-regulated G1/S transition",
+      "description": "In breast cancer, overexpression of the transmembrane tyrosine kinase ERBB2 is an adverse prognostic marker, and occurs in almost 30% of the patients. For therapeutic intervention, ERBB2 is targeted by monoclonal antibody trastuzumab in adjuvant settings; however, de novo resistance to this antibody is still a serious issue, requiring the identification of additional targets to overcome resistance. In this study, we have combined computational simulations, experimental testing of simulation results, and finally reverse engineering of a protein interaction network to define potential therapeutic strategies for de novo trastuzumab resistant breast cancer.",
+      "author": "Sahin, Özgür and Fröhlich, Holger and Löbke, Christian and Korf, Ulrike and Burmester, Sara and Majety, Meher and Mattern, Jens and Schupp, Ingo and Chaouiya, Claudine and Thieffry, Denis and Poustka, Annemarie and Wiemann, Stefan and Beissbarth, Tim and Arlt, Dorit",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1230768000000,
+      "lastChangedAt": 1230768000000,
+      "filename": "ErbB2_model.zginml",
+      "sourcePath": "models/2009-human-erbb-g1s-transition/ErbB2_model.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2009-human-erbb-g1s-transition/ErbB2_model.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMDktbWFtbWFsLXA1My1tZG0yL3A1M01kbTJfdHV0b3JpYWxfNW1hcmNoMjAxOC56Z2lubWw",
+      "title": "p53-Mdm2 network involved in DNA repair",
+      "description": "This model is a refined version of the logical model of the p53-mdm2 network described in Fig. 5a of the supporting publication.",
+      "author": "Abou-Jaoudé, Wassim and Ouattara, Djomangan A. and Kaufman, Marcelle",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1230768000000,
+      "lastChangedAt": 1230768000000,
+      "filename": "p53Mdm2_tutorial_5march2018.zginml",
+      "sourcePath": "models/2009-mammal-p53-mdm2/p53Mdm2_tutorial_5march2018.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2009-mammal-p53-mdm2/p53Mdm2_tutorial_5march2018.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMDktYnVkZGluZy15ZWFzdC1jb3JlLWNlbGwtY3ljbGUvY29yZV9lbmdpbmVfYnVkZGluZ195ZWFzdF9DQy56Z2lubWw",
+      "title": "Core engine controlling the budding yeast cell cycle",
+      "description": "Leaning on the differential model published by Chen et al. in 2004 1 , we have delineated a discrete, logical model that reproduces the main qualitative results reported in this study, in terms of cycle viability or arrest in a particular stable state, for the wild type as well as over one hundred mutant conditions 2 .",
+      "author": "Fauré, Adrien and Naldi, Aurélien and Lopez, Fabrice and Chaouiya, Claudine and Ciliberto, Andrea and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1230768000000,
+      "lastChangedAt": 1230768000000,
+      "filename": "core_engine_budding_yeast_CC.zginml",
+      "sourcePath": "models/2009-budding-yeast-core-cell-cycle/core_engine_budding_yeast_CC.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2009-budding-yeast-core-cell-cycle/core_engine_budding_yeast_CC.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMDktYnVkZGluZy15ZWFzdC1jZWxsLWN5Y2xlL2J1ZGRpbmdZZWFzdElyb25zMjAwOS56Z2lubWw",
+      "title": "Budding yeast cell cycle (adapted from Irons, 2009)",
+      "description": "Budding yeast cell cycle (Irons 2009)",
+      "author": "Fauré, Adrien and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1230768000000,
+      "lastChangedAt": 1230768000000,
+      "filename": "buddingYeastIrons2009.zginml",
+      "sourcePath": "models/2009-budding-yeast-cell-cycle/buddingYeastIrons2009.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2009-budding-yeast-cell-cycle/buddingYeastIrons2009.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMDktYnVkZGluZy15ZWFzdC1mdWxsLWNlbGwtY3ljbGUvY291cGxlZF9idWRkaW5nX3llYXN0X0NDLnpnaW5tbA",
+      "title": "Budding yeast cell cycle (Fauré et al. 2009)",
+      "description": "Leaning on former models, we have defined a logical model for three regulatory modules involved in the control of the mitotic cell cycle in budding yeast, namely the core cell cycle module, the morphogenetic checkpoint, and a module controlling the exit from mitosis. Consistency with available data has been assessed through a systematic analysis of model behaviours for various genetic backgrounds and other perturbations.",
+      "author": "Fauré, Adrien and Naldi, Aurélien and Lopez, Fabrice and Chaouiya, Claudine and Ciliberto, Andrea and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1230768000000,
+      "lastChangedAt": 1230768000000,
+      "filename": "coupled_budding_yeast_CC.zginml",
+      "sourcePath": "models/2009-budding-yeast-full-cell-cycle/coupled_budding_yeast_CC.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2009-budding-yeast-full-cell-cycle/coupled_budding_yeast_CC.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMDktYnVkZGluZy15ZWFzdC1taXRvc2lzLWV4aXQvZXhpdC56Z2lubWw",
+      "title": "Budding yeast exit module",
+      "description": "Exit module of the budding yeast cell cycle",
+      "author": "Fauré, Adrien and Naldi, Aurélien and Lopez, Fabrice and Chaouiya, Claudine and Ciliberto, Andrea and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1230768000000,
+      "lastChangedAt": 1230768000000,
+      "filename": "exit.zginml",
+      "sourcePath": "models/2009-budding-yeast-mitosis-exit/exit.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2009-budding-yeast-mitosis-exit/exit.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMDktYnVkZGluZy15ZWFzdC1tb3JwaG9nZW5ldGljLWNoZWNrcG9pbnQvTUNQX2J1ZGRpbmdfeWVhc3RfQ0Muemdpbm1s",
+      "title": "Morphogenetic checkpoint of the budding yeast cell cycle",
+      "description": "In budding yeast, the morphogenetic checkpoint (MCP) relies upon inhibitory phosphorylation of Cdc2/Cyclin B by Swe1 to condition entry into mitosis to the formation of a bud. Taking inspiration in the ODE model published by Ciliberto et al. (2003) 1 , we have developed a logical model of the MCP, with the aim to plug it to our core engine of the budding yeast cell cycle (cf. 2 ).",
+      "author": "Fauré, Adrien and Naldi, Aurélien and Lopez, Fabrice and Chaouiya, Claudine and Ciliberto, Andrea and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1230768000000,
+      "lastChangedAt": 1230768000000,
+      "filename": "MCP_budding_yeast_CC.zginml",
+      "sourcePath": "models/2009-budding-yeast-morphogenetic-checkpoint/MCP_budding_yeast_CC.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2009-budding-yeast-morphogenetic-checkpoint/MCP_budding_yeast_CC.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMDMtZHJvc29waGlsYS1wYWlyLXJ1bGUvcGFpclJ1bGUuemdpbm1s",
+      "title": "The pair-rule cross-regulatory module",
+      "description": "Pair-rule cross-regulatory module",
+      "author": "Sánchez, Lucas and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1041379200000,
+      "lastChangedAt": 1041379200000,
+      "filename": "pairRule.zginml",
+      "sourcePath": "models/2003-drosophila-pair-rule/pairRule.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2003-drosophila-pair-rule/pairRule.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMDUtZWNvbGktdHJwLWJpb3N5bnRoZXNpcy9UcnBfcmVnLnpnaW5tbA",
+      "title": "Controlling tryptophan biosynthesis",
+      "description": "This work is described in 1 . Its central motivation is the definition of a generic approach to obtain an integrated modelling of the regulated Trp biosynthesis pathway. In this context, we refer to Petri net models 2 . First, we present the modelling of the regulatory control of the Trp biosynthesis in E.Coli (download Trpreg.zginml ). The following figure illustrates the simplified logical regulatory graph. Each node of the regulatory graph represents an active component: Trp, the active enzyme (i.e. not associated with Trp), and the active repressor (the dimmeric form of TrpR in association with Trp). The last node (Trpext) accounts for the import of Trp from the external medium (note the permeation process is considered as constitutive here, for sake of simplicity).",
+      "author": "Simão, E. and Remy, E. and Thieffry, D. and Chaouiya, C.",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1104537600000,
+      "lastChangedAt": 1104537600000,
+      "filename": "Trp_reg.zginml",
+      "sourcePath": "models/2005-ecoli-trp-biosynthesis/Trp_reg.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2005-ecoli-trp-biosynthesis/Trp_reg.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMDYtbWFtbWFsLWNlbGwtY3ljbGUvYm9vbGVhbl9jZWxsX2N5Y2xlLnpnaW5tbA",
+      "title": "Restriction point control of the mammalian cell cycle",
+      "description": "On the basis of a previous modelling study by Novak and Tyson 1 , we have recently proposed a generic Boolean model of the core network controlling the restriction point of the mammalian cell cycle 2 .",
+      "author": "Fauré, Adrien and Naldi, Aurélien and Chaouiya, Claudine and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1136073600000,
+      "lastChangedAt": 1136073600000,
+      "filename": "boolean_cell_cycle.zginml",
+      "sourcePath": "models/2006-mammal-cell-cycle/boolean_cell_cycle.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2006-mammal-cell-cycle/boolean_cell_cycle.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMDYtbWFtbWFsLXRjZWxsLWFjdGl2YXRpb24vVENSc2lnNDAuemdpbm1s",
+      "title": "TCR signalisation",
+      "description": "Regulatory Model",
+      "author": "Klamt, Steffen and Saez-Rodriguez, Julio and Lindquist, Jonathan A and Simeoni, Luca and Gilles, Ernst D",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1136073600000,
+      "lastChangedAt": 1136073600000,
+      "filename": "TCRsig40.zginml",
+      "sourcePath": "models/2006-mammal-tcell-activation/TCRsig40.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2006-mammal-tcell-activation/TCRsig40.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMDYtbWFtbWFsLXRoLWRpZmZlcmVudGlhdGlvbi9UaF8xNy56Z2lubWw",
+      "title": "Control of Th1/Th2 cell differentiation",
+      "description": "On the basis of an extensive analysis of the literature, L. Mendoza proposed a logical model encompassing the most crucial regulatory components and the cross-interactions involved in these differentiative decisions.",
+      "author": "Mendoza, Luis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1136073600000,
+      "lastChangedAt": 1136073600000,
+      "filename": "Th_17.zginml",
+      "sourcePath": "models/2006-mammal-th-differentiation/Th_17.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2006-mammal-th-differentiation/Th_17.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMDYtZHJvc29waGlsYS1EVi1ib3VuZGFyeS9hcC0xX2Vsc2UtMF93dC56Z2lubWw",
+      "title": "DV boundary formation of the Wing imaginal disc",
+      "description": "The larval development of the Drosophila melanogaster wings is organized by the protein Wingless, which is secreted by cells adjacent to the dorsal–ventral (DV) boundary. Two signaling processes acting between the second and early third instars and between the mid- and late third instar control the expression of Wingless in these boundary cells.",
+      "author": "González, Aitor and Chaouiya, Claudine and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1136073600000,
+      "lastChangedAt": 1136073600000,
+      "filename": "ap-1_else-0_wt.zginml",
+      "sourcePath": "models/2006-drosophila-DV-boundary/ap-1_else-0_wt.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2006-drosophila-DV-boundary/ap-1_else-0_wt.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMDYtZHJvc29waGlsYS1EVi1ib3VuZGFyeS9kdl9ib3VuZGFyeV93aW5nX2Rpc2tfbW9kZWwuemdpbm1s",
+      "title": "DV boundary formation of the Wing imaginal disc",
+      "description": "The larval development of the Drosophila melanogaster wings is organized by the protein Wingless, which is secreted by cells adjacent to the dorsal–ventral (DV) boundary. Two signaling processes acting between the second and early third instars and between the mid- and late third instar control the expression of Wingless in these boundary cells.",
+      "author": "González, Aitor and Chaouiya, Claudine and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1136073600000,
+      "lastChangedAt": 1136073600000,
+      "filename": "dv_boundary_wing_disk_model.zginml",
+      "sourcePath": "models/2006-drosophila-DV-boundary/dv_boundary_wing_disk_model.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2006-drosophila-DV-boundary/dv_boundary_wing_disk_model.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMjAtbWFtbWFsLVRoLWlsMTctZGlmZmVyZW50aWFsLWV4cHJlc3Npb24vVGhJTDE3ZGlmZl8yOW5vdjIwMjAuemdpbm1s",
+      "title": "Differential expression of IL17 isoforms A and F in helper T Lymphocytes",
+      "description": "IL-17A and F are critical cytokines in anti-microbial immunity but also contribute to auto-immune pathologies. Recent evidence suggests that they may be differentially produced by T-helper (Th) cells but the underlying mechanisms remain unknown. To address this question, a logical model containing 82 components and 136 regulatory links was developed and calibrated with original flow cytometry data using naive CD4+ T cells in conditions inducing either IL-17A or F. Model analyses led to the identification of the transcription factors NFAT2A, STAT5A and Smad2 as key components explaining the differential expression of IL-17A and IL-17F, with STAT5A controlling IL-17F expression, and an interplay of NFAT2A, STAT5A and Smad2 controlling IL-17A expression.",
+      "author": "Corral-Jara, Karla Fabiola and Chauvin, Camille and Abou-Jaoudé, Wassim and Grandclaudon, Maximilien and Naldi, Aurélien and Soumelis, Vassili and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1609459200000,
+      "lastChangedAt": 1609459200000,
+      "filename": "ThIL17diff_29nov2020.zginml",
+      "sourcePath": "models/2020-mammal-Th-il17-differential-expression/ThIL17diff_29nov2020.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2020-mammal-Th-il17-differential-expression/ThIL17diff_29nov2020.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMjAtbWFtbWFsLW9uY29nZW5pYy1zaWduYWxpbmcvMjAxOF96YW51ZG9fcHJvbGlmZXJhdGlvbi56Z2lubWw",
+      "title": "Control of proliferation by oncogenes and tumor suppressors",
+      "description": "This model is an illustrative example of a signal transduction network relevant to a cancer hallmark phenotype, uncontrolled proliferation. In the normal context cell proliferation is driven by growth factors that bind to receptor tyrosine kinases (RTKs); yet it can also be an outcome of alterations in signal transduction proteins. Six separate pathways are typically pointed out in biological literature. This model includes all of these pathways in a single network. The unperturbed system has two possible steady states, a non-proliferative one and one with controlled proliferation (Proliferation = 1), among which it may select depending on environmental signals. Alterations in certain oncogenes or tumor suppressor genes yield a single outcome: uncontrolled proliferation (Proliferation = 2). Targeted inhibition of an oncogene (here, PI3K) may not eliminate the proliferating phenotype.",
+      "author": "G.T. Zañudo, Jorge and Steinway, Steven N. and Albert, Réka",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1514764800000,
+      "lastChangedAt": 1514764800000,
+      "filename": "2018_zanudo_proliferation.zginml",
+      "sourcePath": "models/2020-mammal-oncogenic-signaling/2018_zanudo_proliferation.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2020-mammal-oncogenic-signaling/2018_zanudo_proliferation.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMjAtbWFtbWFsLWltbXVuZS1jaGVja3BvaW50cy9JbW11bmVDaGVja3BvaW50SW5oaWJpdG9ycy56Z2lubWw",
+      "title": "Immune checkpoints",
+      "description": "GINsim model",
+      "author": "Kondratova, Maria and Barillot, Emmanuel and Zinovyev, Andrei and Calzone, Laurence",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1577836800000,
+      "lastChangedAt": 1577836800000,
+      "filename": "ImmuneCheckpointInhibitors.zginml",
+      "sourcePath": "models/2020-mammal-immune-checkpoints/ImmuneCheckpointInhibitors.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2020-mammal-immune-checkpoints/ImmuneCheckpointInhibitors.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMjAtbWFtbWFsLWVtdC1taWNyb2Vudmlyb25tZW50L1NlbHZhZ2dpb19ldGFsXzIwMTkuemdpbm1s",
+      "title": "Microenvironment control of hybrid Epithelial-Mesenchymal phenotypes",
+      "description": "Epithelial to Mesenchymal Transition (EMT) has been associated with cancer cell heterogeneity, plasticity and metastasis. However, the extrinsic signals supervising these phenotypic transitions remain elusive. To identify microenvironmental signals controlling cancer-associated phenotypes amid the EMT continuum, we defined a logical model of the EMT cellular network that access the qualitative degrees of cell adhesions by adherent junctions and focal adhesions, two features affected during EMT.",
+      "author": "Selvaggio, Gianluca and Canato, Sara and Pawar, Archana and Monteiro, Pedro T. and Guerreiro, Patrícia S. and Brás, M. Manuela and Janody, Florence and Chaouiya, Claudine",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1577836800000,
+      "lastChangedAt": 1577836800000,
+      "filename": "Selvaggio_etal_2019.zginml",
+      "sourcePath": "models/2020-mammal-emt-microenvironment/Selvaggio_etal_2019.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2020-mammal-emt-microenvironment/Selvaggio_etal_2019.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMjAtbWFtbWFsLXRjZWxsLWNoZWNrcG9pbnQtaW5oaWJpdG9ycy9IZXJuYW5kZXpfVGNlbGxDaGVja1BvaW50c18xM2FwcmlsMjAyMC56Z2lubWw",
+      "title": "T cells response to CTLA4 and PD-1 checkpoint inhibitors",
+      "description": "This comprehensive model integrates the available data on T cell activation, taking into account CTLA4 and PD-1 checkpoint inhibitory pathways. It encompasses 216 components and 451 regulatory arcs.",
+      "author": "Hernandez, Céline and Thomas-Chollier, Morgane and Naldi, Aurélien and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1577836800000,
+      "lastChangedAt": 1577836800000,
+      "filename": "Hernandez_TcellCheckPoints_13april2020.zginml",
+      "sourcePath": "models/2020-mammal-tcell-checkpoint-inhibitors/Hernandez_TcellCheckPoints_13april2020.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2020-mammal-tcell-checkpoint-inhibitors/Hernandez_TcellCheckPoints_13april2020.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMjAtc2VhdXJjaGluLWR2LWF4aXMvU2VhVXJjaGluX21vZGVsX2dpbnNpbS56Z2lubWw",
+      "title": "Logical model of the regulatory network controlling dorsal-ventral axis specification in the sea urchin P. lividius",
+      "description": "We have integrated novel experimental results with previous data about the roles of Nodal and BMP pathways in early development of Paracentrotus lividus in the form of a regulatory graph, which was complemented with logical rules, thereby enabling the simulation of cell responses to varying signalling inputs along the dorsal-ventral axis. This logical model was then extended to account for ligand diffusion and enable multicellular simulations, which accurately recapitulated gene expression in wild type embryos, accounting for the specification of the three main ectodermal regions, namely ventral ectoderm, ciliary band and dorsal ectoderm, and further recapitulated sophisticated mutant phenotypes. Finally, using a stochastic extension of the logical formalism, we performed more quantitative temporal simulations, which revealed a dominance of the BMP pathway over the Nodal pathway, and pointed to the rate of Smad activation as a key parameter for D/V patterning of the embryo.",
+      "author": "Floc'hlay, Swann and Molina, Maria Dolores and Hernandez, Céline and Haillot, Emmanuel and Thomas-Chollier, Morgane and Lepage, Thierry and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1577836800000,
+      "lastChangedAt": 1577836800000,
+      "filename": "SeaUrchin_model_ginsim.zginml",
+      "sourcePath": "models/2020-seaurchin-dv-axis/SeaUrchin_model_ginsim.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2020-seaurchin-dv-axis/SeaUrchin_model_ginsim.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMjAtRzFTLWNoZWNrcG9pbnQtQVRNLXAyMS1taVJzL0d1cHRhX0ZFQlNMZXR0ZXJfMjAyMF9TdXBwbGVtZW50YXJ5X0ZpbGVfUzEuemdpbm1s",
+      "title": "Regulation of p21-dependent senescence-apoptosis switch by the ATM/miR-34a-5p axis in non-small cell lung cancer",
+      "description": "Published by Gupta et al in FEBS Letters in 2020 1 , this Boolean model focuses on the regulation of a p21-dependent senescence-apoptosis switch in non-small cell lung cancer, emphasising the roles of two micro-RNAs, as well as of the histone deacetylase HDAC1.",
+      "author": "Shantanu Gupta and Daner A. Silveira and Jose Carlos M. Mombach",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1577836800000,
+      "lastChangedAt": 1577836800000,
+      "filename": "Gupta_FEBSLetter_2020_Supplementary_File_S1.zginml",
+      "sourcePath": "models/2020-G1S-checkpoint-ATM-p21-miRs/Gupta_FEBSLetter_2020_Supplementary_File_S1.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2020-G1S-checkpoint-ATM-p21-miRs/Gupta_FEBSLetter_2020_Supplementary_File_S1.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMjEtbWFtbWFsLW1vbm9jeXRlcy1kZW5kcml0aWMtY2VsbHMvS2FyZW5fTW9EQ18yN0phbjIwMjEuemdpbm1s",
+      "title": "Differentiation of Monocytes to Dendritic Cells",
+      "description": "This logical model accounts for the differentiation of monocytes into monocyte-derived dendritic cells (moDCs) and macrophages. It recapitulates the main established facts regarding wild-type differentiation of monocytes and macrophages in the presence of CSF2 and/or IL4, as well as the impact of various documented mutations. This model integrates documented regulatory interactions, together with novel interactions predicted from public transcriptomic and epigenomic data, enabling to validate in silico various novel transcriptional regulatory links presumably involved in this differentiation process.",
+      "author": "Nuñez-Reza, Karen J. and Naldi, Aurélien and Sánchez-Jiménez, Arantza and Leon-Apodaca, Ana V. and Santana, M. Angélica and Thomas-Chollier, Morgane and Thieffry, Denis and Medina-Rivera, Alejandra",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1609459200000,
+      "lastChangedAt": 1609459200000,
+      "filename": "Karen_MoDC_27Jan2021.zginml",
+      "sourcePath": "models/2021-mammal-monocytes-dendritic-cells/Karen_MoDC_27Jan2021.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2021-mammal-monocytes-dendritic-cells/Karen_MoDC_27Jan2021.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMjEtbWFtbWFsLWJyYWYtdHJlYXRtZW50L0JSQUZfTW9kZWwuemdpbm1s",
+      "title": "Response to BRAF treatment in melanoma and colorectal cancer",
+      "description": "The study of response to cancer treatments has benefited greatly from the contribution of different omics data but their interpretation is sometimes difficult. Some mathematical models based on prior biological knowledge of signaling pathways, facilitate this interpretation but often require fitting of their parameters using perturbation data. We propose a more qualitative mechanistic approach, based on logical formalism and on the sole mapping and interpretation of omics data, and able to recover differences in sensitivity to gene inhibition without model training. This approach is showcased by the study of BRAF inhibition in patients with melanomas and colorectal cancers who experience significant differences in sensitivity despite similar omics profiles.",
+      "author": "Béal, Jonas and Pantolini, Lorenzo and Noël, Vincent and Barillot, Emmanuel and Calzone, Laurence",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1609459200000,
+      "lastChangedAt": 1609459200000,
+      "filename": "BRAF_Model.zginml",
+      "sourcePath": "models/2021-mammal-braf-treatment/BRAF_Model.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2021-mammal-braf-treatment/BRAF_Model.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMjItbWFtbWFsLXNpZ25hbGxpbmctcHJvc3RhdGUtY2FuY2VyL01vbnRhZ3VkMjAyMV9Qcm9zdGF0ZV9DYW5jZXIuemdpbm1s",
+      "title": "Signalling in prostate cancer",
+      "description": "Prostate cancer is the second most occurring cancer in men worldwide, and with the advances made with screening for prostate-specific antigen, it has been prone to early diagnosis and over-treatment. To better understand the mechanisms of tumorigenesis and possible treatment responses, we developed a mathematical model of prostate cancer which considers the major signalling pathways known to be deregulated. The model includes pathways such as androgen receptor, MAPK, Wnt, NFkB, PI3K/AKT, MAPK, mTOR, SHH, the cell cycle, the epithelial-mesenchymal transition (EMT), apoptosis and DNA damage pathways. The final model accounts for 133 nodes and 449 edges. We applied a methodology to personalise this Boolean model to molecular data to reflect the heterogeneity and specific response to perturbations of cancer patients, using TCGA and GDSC datasets.",
+      "author": "Montagud, Arnau and Béal, Jonas and Tobalina, Luis and Traynard, Pauline and Subramanian, Vigneshwari and Szalai, Bence and Alföldi, Róbert and Puskás, László and Valencia, Alfonso and Barillot, Emmanuel and Saez-Rodriguez, Julio and Calzone, Laurence",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1640995200000,
+      "lastChangedAt": 1640995200000,
+      "filename": "Montagud2021_Prostate_Cancer.zginml",
+      "sourcePath": "models/2022-mammal-signalling-prostate-cancer/Montagud2021_Prostate_Cancer.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2022-mammal-signalling-prostate-cancer/Montagud2021_Prostate_Cancer.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMjMtc3RlbS1jZWxscy1teWVsb2ZpYnJvc2lzL0hTQ19NU0NfTUsuemdpbm1s",
+      "title": "Logical modelling of myelofibrotic microenvironment predicts dysregulated progenitor stem cell crosstalk",
+      "description": "Idiopathic primary myelofibrosis is an age-related clonal neoplastic disorder of haematopoiesis characterised by a myeloproliferation and myelofibrosis. Recent evidence suggests that disease onset results from an altered bone marrow microenvironment, leading to disrupted crosstalk between progenitor haematopoietic and mesenchymal stem cells populations. 90% of myelofibrosis cases exhibit ectopic mutations of JAK2, CALR and, or MPL genes which all converge on the activation of JAK and STAT signaling pathways. Treatments aiming to target STAT overactivity have been developed; however, disease management is conducted at advanced stages of the disease and treatments are not effective. A computational description of how altered microenvironments can lead to dysregulated crosstalk between haematopoietic and mesenchymal stem cells populations following STAT activation would increase our knowledge of disease pathology and influence future treatment protocols. To meet this aim, we have constructed a logical model that accounts for the myelofibrotic microenvironment following TPO and lTLR signalling, integrated with JAK-STAT signalling. The model primarily aims to provide a mechanistic understanding of the dysregulated crosstalk between progenitor HSC’s, MSC’s and the microenvironment to predict the onset of PMF with, and without the JAK activation. Wildtype simulations result in 4 cyclic attractors being obtained, all depending on combination of inputs being modelled. The model predicted that presence of TPO and lTLR signalling are both required to facilitate disease onset for wildtype simulations. For simulations involving JAK knock-in mutated scenarios, the model resulted in 4 fixed point attractors, with the presence of lTLR alone being sufficient to drive disease progression.",
+      "author": "Chapman, S.P. and Duprez, E. and Remy, E.",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1672531200000,
+      "lastChangedAt": 1672531200000,
+      "filename": "HSC_MSC_MK.zginml",
+      "sourcePath": "models/2023-stem-cells-myelofibrosis/HSC_MSC_MK.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2023-stem-cells-myelofibrosis/HSC_MSC_MK.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMjMtZWFybHktZGlmZmVyZW50aWF0aW9uLWhlbWF0b3BvaWV0aWMtc3RlbS1jZWxscy9IZXJhdWx0X21vZGVsLnpnaW5tbA",
+      "title": "Logical model of the early differentiation and aging of Hematopoietic Stem Cells (HCS)",
+      "description": "",
+      "author": "",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 946684800000,
+      "lastChangedAt": 946684800000,
+      "filename": "Herault_model.zginml",
+      "sourcePath": "models/2023-early-differentiation-hematopoietic-stem-cells/Herault_model.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2023-early-differentiation-hematopoietic-stem-cells/Herault_model.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMjQtbWFtbWFsLXByb215ZWxvY3l0aWMtbGV1a2FlbWlhL1NhbmNoZXpWaWxsYW51ZXZhX1JBX0FQTF9tb2RlbF8xOU5vdjIwMjQuemdpbm1s",
+      "title": "Logical model of the regulatory network underlying Retinoic Acid resistance in Acute Promyelocytic Leukaemia",
+      "description": "This logical network model integrate signalling, transcriptional and epigenetic regulatory mechanisms underlying the Acute Promyelocytic Leukaemia cell responses to RA treatment depending on their genetic background. The explicit inclusion of the histone methyltransferase EZH2 allowed us to assess its role in the maintenance of the resistant phenotype, distinguishing between its canonical and non-canonical activities. Ultimately, this model offers a solid basis to assess the roles of novel regulatory mechanisms, as well as to explore novel therapeutical approaches in silico.",
+      "author": "Sánchez-Villanueva J and N'Guyen L and Poplineau M and Duprez E and Remy É and Thieffry D",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1704067200000,
+      "lastChangedAt": 1704067200000,
+      "filename": "SanchezVillanueva_RA_APL_model_19Nov2024.zginml",
+      "sourcePath": "models/2024-mammal-promyelocytic-leukaemia/SanchezVillanueva_RA_APL_model_19Nov2024.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2024-mammal-promyelocytic-leukaemia/SanchezVillanueva_RA_APL_model_19Nov2024.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTAtbWFtbWFsLWNlbGwtZmF0ZS9DYWx6b25lX19DZWxsX0ZhdGUuemdpbm1s",
+      "title": "Cell-Fate Decision in Response to Death Receptor Engagement",
+      "description": "This model provides a generic high-level view of the interplays between NFκB pro-survival pathway, RIP1-dependent necrosis, and the apoptosis pathway in response to death receptor-mediated signals.",
+      "author": "Calzone, Laurence and Tournier, Laurent and Fourquet, Simon and Thieffry, Denis and Zhivotovsky, Boris and Barillot, Emmanuel and Zinovyev, Andrei",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1262304000000,
+      "lastChangedAt": 1262304000000,
+      "filename": "Calzone__Cell_Fate.zginml",
+      "sourcePath": "models/2010-mammal-cell-fate/Calzone__Cell_Fate.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2010-mammal-cell-fate/Calzone__Cell_Fate.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTAtbWFtbWFsLWNlbGwtZmF0ZS9DZWxsRmF0ZV9tdWx0aXNjYWxlLnpnaW5tbA",
+      "title": "Cell-Fate Decision in Response to Death Receptor Engagement",
+      "description": "This model provides a generic high-level view of the interplays between NFκB pro-survival pathway, RIP1-dependent necrosis, and the apoptosis pathway in response to death receptor-mediated signals.",
+      "author": "Calzone, Laurence and Tournier, Laurent and Fourquet, Simon and Thieffry, Denis and Zhivotovsky, Boris and Barillot, Emmanuel and Zinovyev, Andrei",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1262304000000,
+      "lastChangedAt": 1262304000000,
+      "filename": "CellFate_multiscale.zginml",
+      "sourcePath": "models/2010-mammal-cell-fate/CellFate_multiscale.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2010-mammal-cell-fate/CellFate_multiscale.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTAtbWFtbWFsLXRoLWRpZmZlcmVudGlhdGlvbi9UaF9kaWZmZXJlbnRpYXRpb25fcmVkdWNlZF9tb2RlbC56Z2lubWw",
+      "title": "Control of Th1/Th2/Th17/Treg cells differentiation",
+      "description": "Alternative cell differentiation pathways are believed to arise from the concerted action of signalling pathways and transcriptional regulatory networks. However, the prediction of mammalian cell differentiation from the knowledge of the presence of specific signals and transcriptional factors is still a daunting challenge. In this respect, the vertebrate hematopoietic system, with its many branching differentiation pathways and cell types, is a compelling case study.",
+      "author": "Naldi, Aurélien and Carneiro, Jorge and Chaouiya, Claudine and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1262304000000,
+      "lastChangedAt": 1262304000000,
+      "filename": "Th_differentiation_reduced_model.zginml",
+      "sourcePath": "models/2010-mammal-th-differentiation/Th_differentiation_reduced_model.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2010-mammal-th-differentiation/Th_differentiation_reduced_model.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTAtbWFtbWFsLXRoLWRpZmZlcmVudGlhdGlvbi9UaF9kaWZmZXJlbnRpYXRpb25fZnVsbF9hbm5vdGF0ZWRfbW9kZWwuemdpbm1s",
+      "title": "Control of Th1/Th2/Th17/Treg cells differentiation",
+      "description": "Alternative cell differentiation pathways are believed to arise from the concerted action of signalling pathways and transcriptional regulatory networks. However, the prediction of mammalian cell differentiation from the knowledge of the presence of specific signals and transcriptional factors is still a daunting challenge. In this respect, the vertebrate hematopoietic system, with its many branching differentiation pathways and cell types, is a compelling case study.",
+      "author": "Naldi, Aurélien and Carneiro, Jorge and Chaouiya, Claudine and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1262304000000,
+      "lastChangedAt": 1262304000000,
+      "filename": "Th_differentiation_full_annotated_model.zginml",
+      "sourcePath": "models/2010-mammal-th-differentiation/Th_differentiation_full_annotated_model.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2010-mammal-th-differentiation/Th_differentiation_full_annotated_model.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTctbWFtbWFsLWx5bXBob2lkLW15ZWxvaWQtdHJhbnNkaWZmZXJlbnRpYXRpb24vQ29sbG9tYmV0X21vZGVsX0JjZWxsX01hY3JvcGhhZ2VzX1BOQVNfMTcwMjE1LnpnaW5tbA",
+      "title": "Lymphoid and myeloid cell specification and transdifferentiation",
+      "description": "Blood cells are derived from a common set of hematopoietic stem cells, which differentiate into more specific progenitors of the myeloid and lymphoid lineages, ultimately leading to differentiated cells. This developmental process is controlled by a complex regulatory network involving cytokines and their receptors, transcription factors and chromatin remodelers. Based on public and novel data from molecular genetic experiments (qPCR, western blots, EMSA), along with genome-wide assays (RNA-seq, ChIP-seq), we defined a logical model recapitulating cytokine-induced differentiation of common progenitors, the effect of various reported gene knock-downs, as well as reprogramming of pre-B cells into macrophages induced by ectopic expression of specific transcription factors.",
+      "author": "Collombet, Samuel and van Oevelen, Chris and Sardina Ortega, Jose Luis and Abou-Jaoudé, Wassim and Di Stefano, Bruno and Thomas-Chollier, Morgane and Graf, Thomas and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1483228800000,
+      "lastChangedAt": 1483228800000,
+      "filename": "Collombet_model_Bcell_Macrophages_PNAS_170215.zginml",
+      "sourcePath": "models/2017-mammal-lymphoid-myeloid-transdifferentiation/Collombet_model_Bcell_Macrophages_PNAS_170215.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2017-mammal-lymphoid-myeloid-transdifferentiation/Collombet_model_Bcell_Macrophages_PNAS_170215.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTctYmFjdGVyaXVtLWFzeW1ldHJpYy1kaXZpc2lvbi9nMmEuemdpbm1s",
+      "title": "Asymmetric Cell Division in Caulobacter Crescentus",
+      "description": "Model G2a file",
+      "author": "Sánchez-Osorio, Ismael and Hernández-Martínez, Carlos A. and Martínez-Antonio, Agustino",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1483228800000,
+      "lastChangedAt": 1483228800000,
+      "filename": "g2a.zginml",
+      "sourcePath": "models/2017-bacterium-asymetric-division/g2a.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2017-bacterium-asymetric-division/g2a.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTctYmFjdGVyaXVtLWFzeW1ldHJpYy1kaXZpc2lvbi9nMmIuemdpbm1s",
+      "title": "Asymmetric Cell Division in Caulobacter Crescentus",
+      "description": "Model G2b file",
+      "author": "Sánchez-Osorio, Ismael and Hernández-Martínez, Carlos A. and Martínez-Antonio, Agustino",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1483228800000,
+      "lastChangedAt": 1483228800000,
+      "filename": "g2b.zginml",
+      "sourcePath": "models/2017-bacterium-asymetric-division/g2b.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2017-bacterium-asymetric-division/g2b.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTEtZHJvc29waGlsYS1jZWxsLWN5Y2xlL2Ryb3NvcGhpbGFDZWxsQ3ljbGVWYXJpYW50cy56Z2lubWw",
+      "title": "Drosophila cell cycle",
+      "description": "Drosophila cell cycle",
+      "author": "Fauré, Adrien and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1230768000000,
+      "lastChangedAt": 1230768000000,
+      "filename": "drosophilaCellCycleVariants.zginml",
+      "sourcePath": "models/2011-drosophila-cell-cycle/drosophilaCellCycleVariants.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2011-drosophila-cell-cycle/drosophilaCellCycleVariants.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTgtbWFtbWFsLXRjci10bHI1L1JvZHJpZ3VlekpvcmdlX01lcmdlZF9UQ1JfVExSNV9TaWduYWxsaW5nX0Jvb2xlYW5Nb2RlbF8xNUp1bDIwMTguemdpbm1s",
+      "title": "TCR and TLR5 merged Boolean model",
+      "description": "CD4+ T cells recognize antigens through their T cell receptors TCR). However, additional signals involving co-stimulatory receptors, for example CD28, are required for proper T cell activation. Alternative co-stimulatory receptors have been proposed, including members of the Toll-like receptor family, such as TLR5 and TLR2.",
+      "author": "Rodríguez-Jorge, Otoniel and Kempis-Calanis, Linda A. and Abou-Jaoudé, Wassim and Gutiérrez-Reyna, Darely Y. and Hernandez, Céline and Ramirez-Pliego, Oscar and Thomas-Chollier, Morgane and Spicuglia, Salvatore and Santana, Maria A. and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1546300800000,
+      "lastChangedAt": 1546300800000,
+      "filename": "RodriguezJorge_Merged_TCR_TLR5_Signalling_BooleanModel_15Jul2018.zginml",
+      "sourcePath": "models/2018-mammal-tcr-tlr5/RodriguezJorge_Merged_TCR_TLR5_Signalling_BooleanModel_15Jul2018.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2018-mammal-tcr-tlr5/RodriguezJorge_Merged_TCR_TLR5_Signalling_BooleanModel_15Jul2018.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTgtbWFtbWFsLXRjci10bHI1L1JvZHJpZ3VlekpvcmdlX1RDUl9TaWduYWxsaW5nX0Jvb2xlYW5Nb2RlbF8xN0p1bDIwMTguemdpbm1s",
+      "title": "TCR and TLR5 merged Boolean model",
+      "description": "CD4+ T cells recognize antigens through their T cell receptors TCR). However, additional signals involving co-stimulatory receptors, for example CD28, are required for proper T cell activation. Alternative co-stimulatory receptors have been proposed, including members of the Toll-like receptor family, such as TLR5 and TLR2.",
+      "author": "Rodríguez-Jorge, Otoniel and Kempis-Calanis, Linda A. and Abou-Jaoudé, Wassim and Gutiérrez-Reyna, Darely Y. and Hernandez, Céline and Ramirez-Pliego, Oscar and Thomas-Chollier, Morgane and Spicuglia, Salvatore and Santana, Maria A. and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1546300800000,
+      "lastChangedAt": 1546300800000,
+      "filename": "RodriguezJorge_TCR_Signalling_BooleanModel_17Jul2018.zginml",
+      "sourcePath": "models/2018-mammal-tcr-tlr5/RodriguezJorge_TCR_Signalling_BooleanModel_17Jul2018.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2018-mammal-tcr-tlr5/RodriguezJorge_TCR_Signalling_BooleanModel_17Jul2018.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTgtbWFtbWFsLXRjci10bHI1L1JvZHJpZ3VlekpvcmdlX1RMUjVfU2lnbmFsbGluZ19Cb29sZWFuTW9kZWxfMTdKdWwyMDE4LnpnaW5tbA",
+      "title": "TCR and TLR5 merged Boolean model",
+      "description": "CD4+ T cells recognize antigens through their T cell receptors TCR). However, additional signals involving co-stimulatory receptors, for example CD28, are required for proper T cell activation. Alternative co-stimulatory receptors have been proposed, including members of the Toll-like receptor family, such as TLR5 and TLR2.",
+      "author": "Rodríguez-Jorge, Otoniel and Kempis-Calanis, Linda A. and Abou-Jaoudé, Wassim and Gutiérrez-Reyna, Darely Y. and Hernandez, Céline and Ramirez-Pliego, Oscar and Thomas-Chollier, Morgane and Spicuglia, Salvatore and Santana, Maria A. and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1546300800000,
+      "lastChangedAt": 1546300800000,
+      "filename": "RodriguezJorge_TLR5_Signalling_BooleanModel_17Jul2018.zginml",
+      "sourcePath": "models/2018-mammal-tcr-tlr5/RodriguezJorge_TLR5_Signalling_BooleanModel_17Jul2018.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2018-mammal-tcr-tlr5/RodriguezJorge_TLR5_Signalling_BooleanModel_17Jul2018.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTgtYmlyZC1zZXgtZGV0ZXJtaW5hdGlvbi9mdWxsX25ldHdvcmsuemdpbm1s",
+      "title": "Primary sex determination of chicken gonads",
+      "description": "This logical model assembles the current knowledge on the regulation of primary sex determination in chicken. Relying on experimental data, a gene network was constructed, leading to a logical model that integrates both the Z-dosage and dominant W hypotheses. The model showed that the sexual fate of chicken gonads results from the resolution of the mutual inhibition between DMRT1 and FOXL2; the initial amount of DMRT1 product determines the development of the gonads. In this respect, the W-factor functions at the initiation step as a second device, by reducing the amount of DMRT1 in ZW gonads when the sexual fate of the gonad is settled; i.e. when SOX9 functional state is determined. Developmental constraints that are instrumental in this resolution were identified. These constraints correspond to qualitative restrictions regarding the relative transcription rates of the genes DMRT1, FOXL2 and HEMGN. The model further clarified the role of oestrogen in maintaining FOXL2 function during ovary development.",
+      "author": "Sánchez, Lucas and Chaouiya, Claudine",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1514764800000,
+      "lastChangedAt": 1514764800000,
+      "filename": "full_network.zginml",
+      "sourcePath": "models/2018-bird-sex-determination/full_network.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2018-bird-sex-determination/full_network.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTgtYmlyZC1zZXgtZGV0ZXJtaW5hdGlvbi9yZWR1Y2VkX25ldHdvcmsuemdpbm1s",
+      "title": "Primary sex determination of chicken gonads",
+      "description": "This logical model assembles the current knowledge on the regulation of primary sex determination in chicken. Relying on experimental data, a gene network was constructed, leading to a logical model that integrates both the Z-dosage and dominant W hypotheses. The model showed that the sexual fate of chicken gonads results from the resolution of the mutual inhibition between DMRT1 and FOXL2; the initial amount of DMRT1 product determines the development of the gonads. In this respect, the W-factor functions at the initiation step as a second device, by reducing the amount of DMRT1 in ZW gonads when the sexual fate of the gonad is settled; i.e. when SOX9 functional state is determined. Developmental constraints that are instrumental in this resolution were identified. These constraints correspond to qualitative restrictions regarding the relative transcription rates of the genes DMRT1, FOXL2 and HEMGN. The model further clarified the role of oestrogen in maintaining FOXL2 function during ovary development.",
+      "author": "Sánchez, Lucas and Chaouiya, Claudine",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1514764800000,
+      "lastChangedAt": 1514764800000,
+      "filename": "reduced_network.zginml",
+      "sourcePath": "models/2018-bird-sex-determination/reduced_network.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2018-bird-sex-determination/reduced_network.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTItemVicmFmaXNoLW1pcjktbmV1cm9nZW5lc2lzL3plYnJhX21pUjlfMjJqdWwyMDExLnpnaW5tbA",
+      "title": "miR-9 and timing of neurogenesis (Coolen 2012)",
+      "description": "This Boolean model displays the subtle role of miR-9 in the course of neural specification in zebrafish.",
+      "author": "Coolen, Marion and Thieffry, Denis and Drivenes, \\Oyvind and Becker, Thomas S. and Bally-Cuif, Laure",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1325376000000,
+      "lastChangedAt": 1325376000000,
+      "filename": "zebra_miR9_22jul2011.zginml",
+      "sourcePath": "models/2012-zebrafish-mir9-neurogenesis/zebra_miR9_22jul2011.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2012-zebrafish-mir9-neurogenesis/zebra_miR9_22jul2011.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTktbWFtbWFsLW5lb25hdGFsLXRjZWxsLW1ldGFib2xpc20vVENSLVJFRE9YLU1FVEFCT0xJU01fMjAxOS0wNy0yNi56Z2lubWw",
+      "title": "Contribution of ROS and metabolic status to neonatal and adult CD8+ T cell activation",
+      "description": "The low response to infection in neonatal T cells contributes to a high incidence of morbidity and mortality. Here we evaluated the effect of the cytoplasmic and mitochondrial levels of Reactive Oxygen Species (ROS) of neonatal CD8+T cells on their low activation. This model captures the interplay between antigen recognition with ROS and metabolic status in T cell responses. This model displays alternative stable states, which corresponds to different cell fates, i.e. quiescent, activated and anergic, depending on ROS status.",
+      "author": "Sánchez-Villanueva, José Antonio and Rodríguez-Jorge, Otoniel and Ramírez-Pliego, Oscar and Rosas Salgado, Gabriela and Abou-Jaoudé, Wassim and Hernandez, Céline and Naldi, Aurélien and Thieffry, Denis and Santana, María Angélica",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1546300800000,
+      "lastChangedAt": 1546300800000,
+      "filename": "TCR-REDOX-METABOLISM_2019-07-26.zginml",
+      "sourcePath": "models/2019-mammal-neonatal-tcell-metabolism/TCR-REDOX-METABOLISM_2019-07-26.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2019-mammal-neonatal-tcell-metabolism/TCR-REDOX-METABOLISM_2019-07-26.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTktbWFtbWFsLW5lb25hdGFsLXRjZWxsLW1ldGFib2xpc20vVENSLVJFRE9YLU1FVEFCT0xJU01fMjAxOS0wNy0yNl9yZWR1Y2VkLnpnaW5tbA",
+      "title": "Contribution of ROS and metabolic status to neonatal and adult CD8+ T cell activation",
+      "description": "The low response to infection in neonatal T cells contributes to a high incidence of morbidity and mortality. Here we evaluated the effect of the cytoplasmic and mitochondrial levels of Reactive Oxygen Species (ROS) of neonatal CD8+T cells on their low activation. This model captures the interplay between antigen recognition with ROS and metabolic status in T cell responses. This model displays alternative stable states, which corresponds to different cell fates, i.e. quiescent, activated and anergic, depending on ROS status.",
+      "author": "Sánchez-Villanueva, José Antonio and Rodríguez-Jorge, Otoniel and Ramírez-Pliego, Oscar and Rosas Salgado, Gabriela and Abou-Jaoudé, Wassim and Hernandez, Céline and Naldi, Aurélien and Thieffry, Denis and Santana, María Angélica",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1546300800000,
+      "lastChangedAt": 1546300800000,
+      "filename": "TCR-REDOX-METABOLISM_2019-07-26_reduced.zginml",
+      "sourcePath": "models/2019-mammal-neonatal-tcell-metabolism/TCR-REDOX-METABOLISM_2019-07-26_reduced.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2019-mammal-neonatal-tcell-metabolism/TCR-REDOX-METABOLISM_2019-07-26_reduced.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTktbWFtbWFsLWNlbGwtY3ljbGUtY29udHJvbC9DZWxsQ3ljbGVDb250cm9sX1NpemVrX1BDQl8yMDE5LnpnaW5tbA",
+      "title": "Comprehensive Boolean model of the mammalian cell cyle control network",
+      "description": "Published by Sizek et al. in 2019, this Boolean model encompasses 87 components representing different molecular species and cellular processes involved in the regulation of cell proliferation versus apoptosis for a generic human cell. The authors conceived this complex model as an association of different functional modules:",
+      "author": "Noël, Vincent and Naldi, Aurélien and Calzone, Laurence and Paulevé, Loic and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1735689600000,
+      "lastChangedAt": 1735689600000,
+      "filename": "CellCycleControl_Sizek_PCB_2019.zginml",
+      "sourcePath": "models/2019-mammal-cell-cycle-control/CellCycleControl_Sizek_PCB_2019.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2019-mammal-cell-cycle-control/CellCycleControl_Sizek_PCB_2019.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTktbWFtbWFsLXRjZWxsLXNwZWNpZmljYXRpb24vQ2FjYWNlX1RkZXZfMm5vdjIwMTkuemdpbm1s",
+      "title": "T-lymphocyte specification",
+      "description": "We have applied the logical modelling framework to the regulatory network controlling T-lymphocyte specification. This process involves cross- regulations between specific T-cell regulatory factors with factors driving alternative differentiation pathways, which remain accessible during the early steps of thymocyte development. Many transcription factors needed for T-cell specification are required in other hematopoietic differentiation pathways, and are combined in a fine-tuned, time-dependent fashion to achieve T-cell commitment. Using the software GINsim, we integrated current knowledge into a dynamical model, which recapitulates the main developmental steps from early progenitors entering the thymus up to T-cell commitment, as well as the impact of various documented environmental and genetic perturbations. Our model analysis further enabled the identification of several knowledge gaps.",
+      "author": "Cacace, Elisabetta and Collombet, Samuel and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1577836800000,
+      "lastChangedAt": 1577836800000,
+      "filename": "Cacace_Tdev_2nov2019.zginml",
+      "sourcePath": "models/2019-mammal-tcell-specification/Cacace_Tdev_2nov2019.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2019-mammal-tcell-specification/Cacace_Tdev_2nov2019.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTMtbWFtbWFsLW1hcGsvTUFQS19sYXJnZV8xOWp1bmUyMDEzLnpnaW5tbA",
+      "title": "MAPK network",
+      "description": "The Mitogen-Activated Protein Kinase (MAPK) network consists of tightly interconnected signalling pathways involved in the control of diverse cellular processes, including cell cycle, survival, apoptosis and differentiation. Based on an extensive analysis of published data, we have built a comprehensive and generic reaction map for the MAPK signalling network, using CellDesigner software.",
+      "author": "Grieco, Luca and Calzone, Laurence and Bernard-Pierrot, Isabelle and Radvanyi, François and Kahn-Perlès, Brigitte and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1356998400000,
+      "lastChangedAt": 1356998400000,
+      "filename": "MAPK_large_19june2013.zginml",
+      "sourcePath": "models/2013-mammal-mapk/MAPK_large_19june2013.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2013-mammal-mapk/MAPK_large_19june2013.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTMtbWFtbWFsLW1hcGsvTUFQS19yZWQxXzE5MDYyMDEzLnpnaW5tbA",
+      "title": "MAPK network",
+      "description": "The Mitogen-Activated Protein Kinase (MAPK) network consists of tightly interconnected signalling pathways involved in the control of diverse cellular processes, including cell cycle, survival, apoptosis and differentiation. Based on an extensive analysis of published data, we have built a comprehensive and generic reaction map for the MAPK signalling network, using CellDesigner software.",
+      "author": "Grieco, Luca and Calzone, Laurence and Bernard-Pierrot, Isabelle and Radvanyi, François and Kahn-Perlès, Brigitte and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1356998400000,
+      "lastChangedAt": 1356998400000,
+      "filename": "MAPK_red1_19062013.zginml",
+      "sourcePath": "models/2013-mammal-mapk/MAPK_red1_19062013.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2013-mammal-mapk/MAPK_red1_19062013.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTMtbWFtbWFsLW1hcGsvTUFQS19yZWQyXzE5MDYyMDEzLnpnaW5tbA",
+      "title": "MAPK network",
+      "description": "The Mitogen-Activated Protein Kinase (MAPK) network consists of tightly interconnected signalling pathways involved in the control of diverse cellular processes, including cell cycle, survival, apoptosis and differentiation. Based on an extensive analysis of published data, we have built a comprehensive and generic reaction map for the MAPK signalling network, using CellDesigner software.",
+      "author": "Grieco, Luca and Calzone, Laurence and Bernard-Pierrot, Isabelle and Radvanyi, François and Kahn-Perlès, Brigitte and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1356998400000,
+      "lastChangedAt": 1356998400000,
+      "filename": "MAPK_red2_19062013.zginml",
+      "sourcePath": "models/2013-mammal-mapk/MAPK_red2_19062013.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2013-mammal-mapk/MAPK_red2_19062013.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTMtbWFtbWFsLW1hcGsvTUFQS19yZWQzXzE5MDYyMDEzLnpnaW5tbA",
+      "title": "MAPK network",
+      "description": "The Mitogen-Activated Protein Kinase (MAPK) network consists of tightly interconnected signalling pathways involved in the control of diverse cellular processes, including cell cycle, survival, apoptosis and differentiation. Based on an extensive analysis of published data, we have built a comprehensive and generic reaction map for the MAPK signalling network, using CellDesigner software.",
+      "author": "Grieco, Luca and Calzone, Laurence and Bernard-Pierrot, Isabelle and Radvanyi, François and Kahn-Perlès, Brigitte and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1356998400000,
+      "lastChangedAt": 1356998400000,
+      "filename": "MAPK_red3_19062013.zginml",
+      "sourcePath": "models/2013-mammal-mapk/MAPK_red3_19062013.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2013-mammal-mapk/MAPK_red3_19062013.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTMtY2VsZWdhbnMtdnVsdmFsLXByZWN1cnNvci92cGN3dDIzaC5naW5tbA",
+      "title": "Specification of vulval precursor cells and cell fusion control in C. elegans",
+      "description": "Model GINsim file (N. Weinstein and L. Mendoza, Frontiers in Genetics 2013)",
+      "author": "Weinstein, Nathan and Mendoza, Luis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1356998400000,
+      "lastChangedAt": 1356998400000,
+      "filename": "vpcwt23h.ginml",
+      "sourcePath": "models/2013-celegans-vulval-precursor/vpcwt23h.ginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2013-celegans-vulval-precursor/vpcwt23h.ginml",
+      "format": "GINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTMtZHJvc29waGlsYS10b2xsL1RvbGxfUGF0aHdheV8xMkp1bjIwMTMuemdpbm1s",
+      "title": "Drosophila Toll Signalling pathway",
+      "description": "Toll was initially discovered as an essential component of the pathway that establishes the dorsal, ventral axis of the early Drosophila embryo. If any component in that genetic pathway is missing, no ventral or lateral cell types develop and the resulting embryos lack all mesoderm and the entire nervous system 1 . Fungal and Gram-positive bacterial infections in Drosophila also stimulate the Toll pathway. Activation of Toll leads to recruitment of three cytoplasmic proteins, which are MYD88, Tube and Pelle, to form the signalling complex underneath the cell membrane 2 . Subsequently, through interactions via death domains, assembly of the signalling complex containing MYD88, Tube and Pelle occurs 2 3 . From this complex, signalling proceeds through the phosphorylation and degradation of the Drosophila IkB factor Cactus. In non signaling conditions, Cactus is bound to Dorsal or Dorsal-related immunity factor (DIF), inhibiting their activity and nuclear localization. Pelle is the only kinase reported for Cactus phosphorylation. After phosphorylation, nuclear translocation of Dorsal/DIF leads to activation of transcription of several sets of target genes 3 4 . To reproduce pathway signalling dynamics, we define two initial states corresponding to no signalling conditions (no ligand binding) and to signalling conditions (binding of SPZ to the receptor Toll).",
+      "author": "Mbodj, Abibatou and Junion, Guillaume and Brun, Christine and Furlong, Eileen E. M. and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1356998400000,
+      "lastChangedAt": 1356998400000,
+      "filename": "Toll_Pathway_12Jun2013.zginml",
+      "sourcePath": "models/2013-drosophila-toll/Toll_Pathway_12Jun2013.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2013-drosophila-toll/Toll_Pathway_12Jun2013.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTMtZHJvc29waGlsYS12ZWdmL1ZFR0ZfUGF0aHdheV8xMkp1bjIwMTMuemdpbm1s",
+      "title": "Drosophila VEGF Signalling pathway",
+      "description": "VEGF (also called PDGF or PVF) pathway participates in different developmental processes, including border cell migration, hemocyte migration and survival, thorax closure during metamorphosis, the rotation and dorsal closure of the male terminalia. and embryonic salivary gland tissue migration. The ability of PVR to activate the MAP-kinase pathway is important for control of cell growth and differentiation in other tissues. Three genes in the Drosophila genome code for PVR ligands: PVF1, PVF2, and PVF3. Binding of one of the ligands (PVF1, 2 or 3) to the receptor PVR triggers the canonical DRK/SOS/RAS/RAF/DSOR1/RL pathway 1 2 3 4 5 . DOF is needed to assemble the PVR receptor and allow it to auto-phosphorylate, likely as an adaptor that links the receptor to RAS pathway. DOF is a cytoplasmic protein which is expressed ubiquitously only in cells that express the FGF receptors. It contains an ankyrin repeat, a coiled-coil structure and many tyrosines within environments that suggest that if phosphorylated they act as binding sites for the SH2 domains of proteins such as DRK or CSW 6 . The SH2-domain-containing protein DRK recruits the guanine nucleotide exchange factor, Son of sevenless (SOS), to catalyze the exchange of GDP bound to RAS for GTP, thereby activating RAS with the help of activated KSR. RAS promotes the activation of RAF, leading to the activation of DSOR1, and ultimately to that of the MAP kinase Rolled (RL ). Rolled can activate transcription, both through inactivation of transcriptional co-repressors such as AOP, as well as through the activation of transcription factors such as the ETS-domain-containing protein Pointed (PNT) 7 8 . The activation of PNT is a major output of the pathway. It is either phosphorylated by MAP kinase to produce an active transcriptional activator (PointedP2), or transcriptionally induced by MAP kinase to produce a constitutive transcriptional activator (PointedP1). Sprouty (STY) acts downstream of the receptor, but upstream of RAS1 and RAF, by recruiting GAP1 and blocking the ability of DRK to bind to its positive effector. We have considered three typical initial states corresponding to i. ligands binding in wild-type signalling enabling situation (VEGFsignalling), ii. ligand binding in the presence of the inhibitor Sprouty (Sproutyinhibition), iii. absence of ligand (Nosignalling).",
+      "author": "Mbodj, Abibatou and Junion, Guillaume and Brun, Christine and Furlong, Eileen E. M. and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1356998400000,
+      "lastChangedAt": 1356998400000,
+      "filename": "VEGF_Pathway_12Jun2013.zginml",
+      "sourcePath": "models/2013-drosophila-vegf/VEGF_Pathway_12Jun2013.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2013-drosophila-vegf/VEGF_Pathway_12Jun2013.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTMtZHJvc29waGlsYS13Zy9XZ19QYXRod2F5XzExSnVuMjAxMy56Z2lubWw",
+      "title": "Drosophila Wg Signalling pathway",
+      "description": "In the absence of WG, the protein complex composed by Axin, Shaggy (SGG or ZW3) and APC sequesters and ubiquitinilates Armadillo, leading to a Slmb- dependant degradation by the proteasome. In the absence of ARM, PAN binds to GRO to repress WG targets. Binding of Wingless to Arrow (ARR) or Frizzled (FZ) triggers a set of reactions, starting with the activation of Dishevelled, which in turn inhibits the AXN-SGG-APC complex. This leads (with the help of HIPK) to the accumulation and the stabilisation of ARM. Next, ARM translocates into the nucleus and binds Pangolin (PAN). Then, the ARM/PAN complex with the help of other cofactors (LGS, Nej, Pygo and Hyx) activates the transcription of WG targets. During some patterning processes as in wing disc, Nemo can inhibit PAN and thereby controls the level of WG signalling. To study dynamically the WG signalling pathway, we define two initial states corresponding to the binding of WG ligand and to the absence of binding condition. From these two initial states, we compute the resulting stable states recapitulating the activation or the non activation of the pathway, respectively. For more details on Dpp signalling pathway regulation see 1 2 3 4 5 .",
+      "author": "Mbodj, Abibatou and Junion, Guillaume and Brun, Christine and Furlong, Eileen E. M. and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1356998400000,
+      "lastChangedAt": 1356998400000,
+      "filename": "Wg_Pathway_11Jun2013.zginml",
+      "sourcePath": "models/2013-drosophila-wg/Wg_Pathway_11Jun2013.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2013-drosophila-wg/Wg_Pathway_11Jun2013.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTMtZHJvc29waGlsYS1GR0YvRkdGX1BhdGh3YXlfMTJKdW4yMDEzLnpnaW5tbA",
+      "title": "Drosophila FGF Signalling pathway",
+      "description": "Drosophila genome encodes two FGF receptors, HTL (Heartless) and BTL (Breathless), which are required for the morphogenesis of different tissues. BTL is expressed in the tracheae, while HTL is expressed in embryonic mesoderm and was first identified because of its essential role in heart development. BTL ligand, BNL is encoded by the branchless gene 1 . THS (Thisbe) and PYR (Pyramus) function in a partially redundant fashion to activate heartless (htl). Upon ligand binding receptor dimerization triggers the canonical DRK/SOS/RAS/RAF/DSOR1/RL pathway. In contrast with other RTKs, Stumps is needed to trigger signal transduction 2 3 . Stumps is a cytoplasmic protein expressed in cells also expressing the FGF receptors. The presence of an ankyrin repeat, a coiled-coil structure and many tyrosines suggests that Stumps could bind SH2 domains of proteins such as DRK or CSW 4 .",
+      "author": "Mbodj, Abibatou and Junion, Guillaume and Brun, Christine and Furlong, Eileen E. M. and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1356998400000,
+      "lastChangedAt": 1356998400000,
+      "filename": "FGF_Pathway_12Jun2013.zginml",
+      "sourcePath": "models/2013-drosophila-FGF/FGF_Pathway_12Jun2013.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2013-drosophila-FGF/FGF_Pathway_12Jun2013.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTMtZHJvc29waGlsYS1kcHAvRHBwX19QYXRod2F5XzExSnVuMjAxMy56Z2lubWw",
+      "title": "Drosophila Dpp Signalling pathway",
+      "description": "Drosophila DPP (TGF-beta homolog) signalling pathway is triggered by ligand-induced formation of heterotetrameric complexes consisting of two type II receptors and two type I receptors with intrinsic serine/threonine kinase activity. The type I receptor (SAX or TKV) is phosphorylated by the constitutively active type II receptor kinase (Punt). Consequently, the complex becomes active and phosphorylates the receptor-regulated Smads (R-Smads). Phosphorylated R-Smads (MAD and Smox) form complexes with a common- mediator Smad (Medea) and translocate into the nucleus, where they regulate the transcription of target genes in co-operation with other transcription factors (nejire, schnurri). DPP is a morphogen, i.e. a molecule distributed in a concentration gradient that elicits different cell fates as a function of its concentration, thereby organizing a series of cell types in a defined spatial array. In response to DPP gradient, cells adopt different fates. The establishment of dpp gradient involves the proteins SOG and TSG. These proteins together capture the DPP ligand and prevent its binding to the receptor (Punt). The heteromeric complex (SOG, DPP, TSG) then release the DPP ligand, a process involving the cleavage of SOG by Tolloid (a metalloprotease). Other TGF-beta signals, Glass-bottom-boa (GBB) and Screw (SCW), help DPP to potentiate cells to respond. SCW and GBB are never expressed together in the same region and affect different cells during: i) early D/V patterning of the embryo and specification/differentiation of dorsal cells (if there is no screw, dpp alone is unable to establish the D/V pattern and embryo lack amnioserosa); ii) the development of adult structures such as the wing. GBB or SCW form heterodimeric complexes with DPP. These heterodimers can only signal through TKV, while SCW/SCW and GBB/GBB signals trough SAX, and DPP/DPP trough TKV and SAX. To model DPP signalling and the formation of the gradient, we have considered three different levels for the TKV receptor (0, 1, 2) and the MADMED effector (0, 1, 2).",
+      "author": "Mbodj, Abibatou and Junion, Guillaume and Brun, Christine and Furlong, Eileen E. M. and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1356998400000,
+      "lastChangedAt": 1356998400000,
+      "filename": "Dpp__Pathway_11Jun2013.zginml",
+      "sourcePath": "models/2013-drosophila-dpp/Dpp__Pathway_11Jun2013.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2013-drosophila-dpp/Dpp__Pathway_11Jun2013.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTMtZHJvc29waGlsYS1KQUstU1RBVC9KYWtTdGF0X19QYXRod2F5XzEySnVuMjAxMy56Z2lubWw",
+      "title": "Drosophila JAK/STAT Signalling pathway",
+      "description": "In Drosophila, three secreted ligands (OS, UPD2 and UPD3) have been identified for the JAK/STAT pathway. Their binding to the receptor dome induces its homo- dimerization, enabling hop to phosphorylate specific tyrosine residues of the receptor. Consequently, STAT92E is also phosphorylated by HOP, leading to his homo-dimerization and nuclear translocation. In the nucleus, STAT92E binds to target DNA sequences and acts as an activator of transcription of several target genes 1 . During Drosophila development, the JAK/STAT pathway is involved in embryonic segmentation, eye development, cell growth, haematopoiesis, and sex determination 2 3 . JAK/STAT signalling also plays important roles during spermatogenesis 4 and oogenesis 5 6 3 . To study the dynamic of the pathway, we define a set of initial states representative of in vivo situations during JAK/STAT signalling. More precisely, we define a three initial states corresponding to pathway signalling (binding of OS or UPD2 or UPD3) and two initial states corresponding to pathway signalling in the presence of an inhibitor (SOCS44A or BRWD3) and one initial state corresponding to non signalling conditions (no binding of ligands).",
+      "author": "Mbodj, Abibatou and Junion, Guillaume and Brun, Christine and Furlong, Eileen E. M. and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1356998400000,
+      "lastChangedAt": 1356998400000,
+      "filename": "JakStat__Pathway_12Jun2013.zginml",
+      "sourcePath": "models/2013-drosophila-JAK-STAT/JakStat__Pathway_12Jun2013.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2013-drosophila-JAK-STAT/JakStat__Pathway_12Jun2013.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTMtZHJvc29waGlsYS1lZ2YvRUdGX19QYXRod2F5XzEySnVuMjAxMy56Z2lubWw",
+      "title": "Drosophila EGF Signalling pathway",
+      "description": "Four activating ligands, Spitz, Keren, Gurken and Vein have been identified for drosophila EGF receptors, called DER. Spitz (SPI) is the major ligand and is involved in most situations where the pathway is activated. Keren plays a minor, redundant role, while Gurken is used exclusively during oogenesis. These ligands are produced as inactive transmembrane precursors, which are retained in the endoplasmic reticulum and needed to processed by the chaperone protein Star. Processed ligands are directed into another compartment where they encounter Rhomboid (RHO) serine proteases, which cleave the ligand precursors within the transmembrane domain to release the active, secreted ligand form. RHO also cleaves and inactivates Star, attenuating the level of cleaved ligand that is produced. The fourth ligand, Vein, is produced as a secreted molecule, which is a weaker activating ligand used either to enhance signalling by other ligands or in specific situations such as muscle patterning. Binding of ligands to DER leads to dimerization and triggering of the canonical DRK/SOS/RAS/RAF/DSOR1/Rolled pathway. DRK (SH2-domain-containing protein) recruits SOS (Son of sevenless, a guanine nucleotide exchange factor) to catalyze the exchange of RAS bound GDP for GTP exchange, thereby activating RAS. RAS then promotes the activation of RAF, leading to DSOR1 activation, and eventually to Rolled (RL) activation. RL inactivates transcriptional co- repressors, such as Aop, and activates transcription factors, such as Pointed (PNT) 1 .",
+      "author": "Mbodj, Abibatou and Junion, Guillaume and Brun, Christine and Furlong, Eileen E. M. and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1356998400000,
+      "lastChangedAt": 1356998400000,
+      "filename": "EGF__Pathway_12Jun2013.zginml",
+      "sourcePath": "models/2013-drosophila-egf/EGF__Pathway_12Jun2013.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2013-drosophila-egf/EGF__Pathway_12Jun2013.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTMtZHJvc29waGlsYS1oaC9IaF9fUGF0aHdheV8xMUp1bjIwMTMuemdpbm1s",
+      "title": "Drosophila Hh Signalling pathway",
+      "description": "Processing of HH ligand The precursor of HH is auto-catalytically cleaved to produce an N-terminal (HH-N) and a C- terminal (HH-C) fragments 1 2 . A cholesterol moiety is covalently attached to the last amino acid of HH-N to create HH-Np, that is responsible for the biological activities of HH proteins 1 2 3 . The N-terminal region of HH-Np is further modified by addition of palmitate that is essential for its signalling activity 4 5 6 7 8 9 . We model these aspects by an AND rule (combining inputs from DLP, IHOG, Rasp, DISP, SHF, Lipophorin, BOI and DALLY) attached to the component representing the secreted HH molecule, denoted Hh in our model. HH Signalling Two integral membrane proteins are involved in HH signal reception: Patched and Smoothened. HH binding to its receptor Patched (PTC) relieves PTC- mediated repression of Smoothened (SMO), a serpentine-like membrane protein required for HH signalling 10 11 . This allows SMO stabilisation, activation, and phosphorylation by Shaggy (SGG), and downstream signalling through the formation of a protein complex including the serine threonine kinase Fused (FU), the kinesin-like protein Costa (COS), and the protein Suppressor of Fused (SUFU), ultimately controlling the post-translational processing of the protein Cubitus interruptus (CI) 12 . In the absence of HH, COS binds CI directly and sequesters it in the cytoplasm with the help of SUFU. The recruitment of different kinases (Casein kinase 1 alpha, Shaggy, Protein kinase A) then leads to the phosphorylation of CI and to its proteolysis by SLMB. The resulting truncated protein (CIrep) is released and enters the nucleus, where it has a transcriptional repressing activity. Recent evidence further indicates that SMO is inhibited by TOW, which tentatively mediates the effect of PTC on SMO 13 14 . Following SMO activation, the transcription factor CI is phosphorylated and translocated into the nucleus in its entire form, which plays a transcriptional activatory role (CIact). In the model, a cascade of inhibitions, from HH on PTC, and from PTC on SMO, implements the indirect positive action of HH on SMO. A protein complex including CI, COS, and FU, phosphorylates and thereby inhibits SU(FU), ultimately favouring the CI activatory form and its translocation into the nucleus. We model the roles of the kinases (SGG, PKA, and CK1a), COS and SU(FU) (both needed to recruit the kinases) in the processing of CI in terms of inhibitory interactions on CIact and activatory interactions on CIrep 15 16 . Complexes are represented implicitly (they are formed as soon as the components are synthesised or activated), while logical rules define component activity requirements to form CIact versus CIrep forms. To explore the dynamic of the pathway, we define two initial states to simulate the presence and the absence of signalling. On one hand, the non binding of HH (level expression 0) triggers a series of signalling cascades that lead to the activation of several kinases (for example SGG, PKA, CK1a, ...) at level of expression 1, which will permit the formation of CI repressor (expressed at level 1), which in turn will inhibit the targets. On the other hand, the presence of HH (level of expression 1) leads to a stable state corresponding to the signalling conditions leading to the formation of CI activator that will activate the targets node (level of expression 1).",
+      "author": "Mbodj, Abibatou and Junion, Guillaume and Brun, Christine and Furlong, Eileen E. M. and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1356998400000,
+      "lastChangedAt": 1356998400000,
+      "filename": "Hh__Pathway_11Jun2013.zginml",
+      "sourcePath": "models/2013-drosophila-hh/Hh__Pathway_11Jun2013.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2013-drosophila-hh/Hh__Pathway_11Jun2013.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTMtZHJvc29waGlsYS1ub3RjaC9Ob3RjaF9fUGF0aHdheV8xMkp1bjIwMTMuemdpbm1s",
+      "title": "Drosophila Notch Signalling pathway",
+      "description": "Notch signaling is involved in the modulation of Twist expression and the subdivision of the mesoderm into high and low domain of Twist. The binding of Delta leads to the cleavage and the release of the Notch intracellular domain NICD. During mesoderm specification, NICD can inhibit Twist by forming a complex with EMC, or in combination with Enhancer of split and Suppressor of hairless proteins. In this regard, we modeled the effect of Notch pathway on Twist expression. Our defined initial states reproduce biological data during mesoderm specification. When Delta is ON (high or medium signaling), the level of Twist expression can decrease from 2 to 1 or 0. When Delta is OFF (no signaling), Twist is expressed at its maximal level 2. For more details on Notch signalling pathway and it's role on Twist expression regulation during Drosophila development 1 2 3 4 5 .",
+      "author": "Mbodj, Abibatou and Junion, Guillaume and Brun, Christine and Furlong, Eileen E. M. and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1356998400000,
+      "lastChangedAt": 1356998400000,
+      "filename": "Notch__Pathway_12Jun2013.zginml",
+      "sourcePath": "models/2013-drosophila-notch/Notch__Pathway_12Jun2013.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2013-drosophila-notch/Notch__Pathway_12Jun2013.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTMtZHJvc29waGlsYS1zcHovU3B6X19Qcm9jZXNzaW5nXzEySnVuMjAxMy56Z2lubWw",
+      "title": "Drosophila SPATZLE Processing pathway",
+      "description": "During DV patterning, a regulatory cascades composed by three dorsal group genes gastrulation-defective, snake and easter, encoding serine proteases, lead to the cleavage of Spatzle (SPZ), that in turn activates the Toll-dorsal signaling pathway 1 2 . Spatzle presumably forms a gradient in the perivitelline fluid. Toll signaling is ultimately responsible for the formation of the embryonic dorsal nuclear gradient. In the nucleus, dorsal controls the expression of zygotic genes in a concentration-dependent manner and this process results in the patterning of the dorsal–ventral embryonic axis. twist is one of the earliest target genes controlled by the highest concentration of dorsal in the mesodermal cells. It is a transcriptional activator that cooperates with dorsal in activating snail in the mesoderm. Dorsal and Twist also cooperate to activate the neurogenic gene, sim (single minded), expressed in the neurectoderm and repressed by Snail in the mesoderm. Natural or experimentally induced infections by fungi or bacteria elicit a specific response in both adult flies and larvae. The proteoglycans of Gram-positive and Gram-negative bacteria are sensed by distinct pattern recognition proteins called PGRPs (peptidoglycan recognition proteins 3 . Different PRGPs cooperate to activate the Toll pathway. The activation of PGRP-SA by Gram- positive bacteria leads to Spatzle cleavage 4 . Fungal infection also leads to the cleavage of Spatzle, but the proteolytic cascade in this case involves the circulating serine protease Persephone and its serine protease inhibitor, Necrotic 5 6 7 . Circulating PGRP-SA receptor activates the Toll pathway upon detection of Lysine-type PGN which is a major component of the cell wall of many Gram-positive bacterial strains. GNBP1 (Gram-Negative Binding Protein 1) associates with PGRP-SA and this complex activates a downstream proteolytic cascade that leads to the cleavage of Spatzle, which then activates the Toll transmembrane receptor. In addition, four other serine proteases, namely Spirit, Spheroide, and Sphinx1 and 2, were identified in response to both fungi and Gram-positive bacteria infections. Thus, PGRP-SA and GNBP1 define a Gram-positive-specific branch of Toll receptor activation. PGRP-SD also belongs to this branch and is required for the detection of other Gram-positive and negative bacterial strains. In short, the maturation of SPZ activates Toll in both early embryo and immune response and is controlled by different sets of proteases 8 9 . To reproduce biological data during SPZ processing, we define four initial states corresponding the biological process involved. All these initial state lead to the formation of the active form of SPZ.",
+      "author": "Mbodj, Abibatou and Junion, Guillaume and Brun, Christine and Furlong, Eileen E. M. and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1356998400000,
+      "lastChangedAt": 1356998400000,
+      "filename": "Spz__Processing_12Jun2013.zginml",
+      "sourcePath": "models/2013-drosophila-spz/Spz__Processing_12Jun2013.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2013-drosophila-spz/Spz__Processing_12Jun2013.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTQtbWFtbWFsLW1hc3QtY2VsbC1hY3RpdmF0aW9uL01hc3RfY2VsbF9hY3RpdmF0aW9uX0Fubm90YXRlZF8xOW9jdDIwMTQuemdpbm1s",
+      "title": "Mast cell activation",
+      "description": "Based on an exhaustive curation of the existing literature and using the software CellDesigner, we have built and annotated a comprehensive molecular map for the FceRI and FcgRIIb signalling pathways, which play a key role in mast cell activation in mammals. Using this map and the logical modelling software GINsim, we have derived a logical model recapitulating the most salient features of mast cell activation. This model can be used to explore the dynamical properties of the system and its responses to different stimuli, in normal or mutant conditions.",
+      "author": "Niarakis, Anna and Bounab, Yacine and Grieco, Luca and Roncagalli, Romain and Hesse, Anne-Marie and Garin, Jérôme and Malissen, Bernard and Daëron, Marc and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1388534400000,
+      "lastChangedAt": 1388534400000,
+      "filename": "Mast_cell_activation_Annotated_19oct2014.zginml",
+      "sourcePath": "models/2014-mammal-mast-cell-activation/Mast_cell_activation_Annotated_19oct2014.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2014-mammal-mast-cell-activation/Mast_cell_activation_Annotated_19oct2014.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTQtbWFtbWFsLXNlbmVzY2VuY2UvU2VuZXNjZW5jZV9PbnNldF9HMS1TLnpnaW5tbA",
+      "title": "Senescence onset at the G1/S cell cycle checkpoint",
+      "description": "",
+      "author": "Mombach, José CM and Bugs, Cristhian A and Chaouiya, Claudine",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1388534400000,
+      "lastChangedAt": 1388534400000,
+      "filename": "Senescence_Onset_G1-S.zginml",
+      "sourcePath": "models/2014-mammal-senescence/Senescence_Onset_G1-S.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2014-mammal-senescence/Senescence_Onset_G1-S.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTQtbWFtbWFsLXRoLWRpZmZlcmVudGlhdGlvbi9Gcm9udGllcnMtVGgtRnVsbC1tb2RlbC1hbm5vdGF0ZWQuemdpbm1s",
+      "title": "Control of Th1/Th2/Th17/Treg/Tfh/Th9/Th22 cell differentiation",
+      "description": "Complete Model",
+      "author": "Abou-Jaoudé, Wassim and Monteiro, Pedro T. and Naldi, Aurélien and Grandclaudon, Maximilien and Soumelis, Vassili and Chaouiya, Claudine and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1420070400000,
+      "lastChangedAt": 1420070400000,
+      "filename": "Frontiers-Th-Full-model-annotated.zginml",
+      "sourcePath": "models/2014-mammal-th-differentiation/Frontiers-Th-Full-model-annotated.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2014-mammal-th-differentiation/Frontiers-Th-Full-model-annotated.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTQtZHJvc29waGlsYS1lZ2dzaGVsbC1wYXR0ZXJuaW5nL21lY2hhbmlzdGljX2NlbGx1bGFyLnpnaW5tbA",
+      "title": "Drosophila eggshell patterning",
+      "description": "The Drosophila eggshell constitutes a remarkable system for the study of epithelial patterning, both experimentally and through computational modeling. Dorsal eggshell appendages arise from specific regions in the anterior follicular epithelium that covers the oocyte: two groups of cells expressing broad (roof cells) bordered by rhomboid expressing cells (floor cells). Despite the large number of genes known to participate in defining these domains and the important modeling efforts put into this developmental system, key patterning events still lack a proper mechanistic understanding and/or genetic basis, and the literature appears to conflict on some crucial points. We tackle these issues with an original, discrete framework that considers single-cell models that are integrated to construct epithelial models. We first build a phenomenological model that reproduces wild type follicular epithelial patterns, confirming EGF and BMP signaling input as sufficient to establish the major features of this patterning system within the anterior domain. Importantly, this simple model predicts an instructive juxtacrine signal linking the roof and floor domains. To explore this prediction, we define a mechanistic model that integrates the combined effects of cellular genetic networks, cell communication and network adjustment through developmental events. Moreover, we focus on the anterior competence region, and postulate that early BMP signaling participates with early EGF signaling in its specification. This model accurately simulates wild type pattern formation and is able to reproduce, with unprecedented level of precision and completeness, various published gain-of-function and loss-of-function experiments, including perturbations of the BMP pathway previously seen as conflicting results. The result is a coherent model built upon rules that may be generalized to other epithelia and developmental systems.",
+      "author": "Fauré, Adrien and Vreede, Barbara M. I. and Sucena, Élio and Chaouiya, Claudine",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1388534400000,
+      "lastChangedAt": 1388534400000,
+      "filename": "mechanistic_cellular.zginml",
+      "sourcePath": "models/2014-drosophila-eggshell-patterning/mechanistic_cellular.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2014-drosophila-eggshell-patterning/mechanistic_cellular.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTQtZHJvc29waGlsYS1lZ2dzaGVsbC1wYXR0ZXJuaW5nL3BoZW5vbWVub2xvZ2ljYWxfY2VsbHVsYXIuemdpbm1s",
+      "title": "Drosophila eggshell patterning",
+      "description": "The Drosophila eggshell constitutes a remarkable system for the study of epithelial patterning, both experimentally and through computational modeling. Dorsal eggshell appendages arise from specific regions in the anterior follicular epithelium that covers the oocyte: two groups of cells expressing broad (roof cells) bordered by rhomboid expressing cells (floor cells). Despite the large number of genes known to participate in defining these domains and the important modeling efforts put into this developmental system, key patterning events still lack a proper mechanistic understanding and/or genetic basis, and the literature appears to conflict on some crucial points. We tackle these issues with an original, discrete framework that considers single-cell models that are integrated to construct epithelial models. We first build a phenomenological model that reproduces wild type follicular epithelial patterns, confirming EGF and BMP signaling input as sufficient to establish the major features of this patterning system within the anterior domain. Importantly, this simple model predicts an instructive juxtacrine signal linking the roof and floor domains. To explore this prediction, we define a mechanistic model that integrates the combined effects of cellular genetic networks, cell communication and network adjustment through developmental events. Moreover, we focus on the anterior competence region, and postulate that early BMP signaling participates with early EGF signaling in its specification. This model accurately simulates wild type pattern formation and is able to reproduce, with unprecedented level of precision and completeness, various published gain-of-function and loss-of-function experiments, including perturbations of the BMP pathway previously seen as conflicting results. The result is a coherent model built upon rules that may be generalized to other epithelia and developmental systems.",
+      "author": "Fauré, Adrien and Vreede, Barbara M. I. and Sucena, Élio and Chaouiya, Claudine",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1388534400000,
+      "lastChangedAt": 1388534400000,
+      "filename": "phenomenological_cellular.zginml",
+      "sourcePath": "models/2014-drosophila-eggshell-patterning/phenomenological_cellular.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2014-drosophila-eggshell-patterning/phenomenological_cellular.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTUtbWFtbWFsLWJsYWRkZXItdHVtb3JpZ2VuZXNpcy9CbGFkZGVyX01vZGVsLnpnaW5tbA",
+      "title": "Mutually exclusive and co-occurring genetic alterations in bladder tumorigenesis",
+      "description": "Relationships between genetic alterations, such as co-occurrence or mutual exclusivity, are often observed in cancer, where their understanding may provide new insights into etiology and clinical management. In this study, we combined statistical analyses and computational modelling to explain patterns of genetic alterations seen in 178 patients with bladder tumours (either muscle-invasive or non-muscle-invasive). A statistical analysis on frequently altered genes identified pair associations including co-occurrence or mutual exclusivity. Focusing on genetic alterations of protein-coding genes involved in growth factor receptor signalling, cell cycle and apoptosis entry, we complemented this analysis with a literature search to focus on nine pairs of genetic alterations of our dataset, with subsequent verification in three other datasets available publically. To understand the reasons and contexts of these patterns of associations while accounting for the dynamics of associated signalling pathways, we built a logical model. This model was validated first on published mutant mice data, then used to study patterns and to draw conclusions on counter-intuitive observations, allowing one to formulate predictions about conditions where combining genetic alterations benefits tumorigenesis. For example, while CDKN2A homozygous deletions occur in a context of FGFR3 activating mutations, our model suggests that additional PIK3CA mutation or p21CIP deletion would greatly favour invasiveness. Further, the model sheds light on the temporal orders of gene alterations, for example, showing how mutual exclusivity of FGFR3 and TP53 mutations is interpretable if FGFR3 is mutated first. Overall, our work shows how to predict combinations of the major gene alterations leading to invasiveness.",
+      "author": "Remy, Elisabeth and Rebouissou, Sandra and Chaouiya, Claudine and Zinovyev, Andrei and Radvanyi, François and Calzone, Laurence",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1420070400000,
+      "lastChangedAt": 1420070400000,
+      "filename": "Bladder_Model.zginml",
+      "sourcePath": "models/2015-mammal-bladder-tumorigenesis/Bladder_Model.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2015-mammal-bladder-tumorigenesis/Bladder_Model.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTUtbWFtbWFsLWNlbGwtZmF0ZS1nYXN0cmljLWNhbmNlci9GbG9iYWtfRnVsbE1vZGVsX1MyX0RhdGFzZXQuemdpbm1s",
+      "title": "Cell fate decision network in the AGS gastric cancer cell line (Flobak et al 2015)",
+      "description": "This model accounts for cell fate decision network in the AGS gastric cancer cell line. A set of logical equations has been defined, wich recapitulates AGS data observed in cells in their baseline proliferative state. Using the modeling software GINsim, model reduction and simulation compression techniques were applied to cope with the vast state space of large logical models and enable simulations of pairwise applications of specific signaling inhibitory chemical substances. These simulations predicted synergistic growth inhibitory action of five combinations from a total of 21 possible pairs. All predicted non synergic pairs and four of the predicted synergic ones were confirmed in AGS cell growth real-time assays, including known synergic effects of MEK-AKT or MEK-PI3K inhibitions, along with novel synergistic effects of combined TAK1-AKT or TAK1-PI3K inhibitions.",
+      "author": "Flobak, Åsmund and Baudot, Anaïs and Remy, Elisabeth and Thommesen, Liv and Thieffry, Denis and Kuiper, Martin and Lægreid, Astrid",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1420070400000,
+      "lastChangedAt": 1420070400000,
+      "filename": "Flobak_FullModel_S2_Dataset.zginml",
+      "sourcePath": "models/2015-mammal-cell-fate-gastric-cancer/Flobak_FullModel_S2_Dataset.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2015-mammal-cell-fate-gastric-cancer/Flobak_FullModel_S2_Dataset.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTUtbWFtbWFsLWNlbGwtZmF0ZS1nYXN0cmljLWNhbmNlci9GbG9iYWtfUmVkdWNlZE1vZGVsX1MzX0RhdGFzZXQuemdpbm1s",
+      "title": "Cell fate decision network in the AGS gastric cancer cell line (Flobak et al 2015)",
+      "description": "This model accounts for cell fate decision network in the AGS gastric cancer cell line. A set of logical equations has been defined, wich recapitulates AGS data observed in cells in their baseline proliferative state. Using the modeling software GINsim, model reduction and simulation compression techniques were applied to cope with the vast state space of large logical models and enable simulations of pairwise applications of specific signaling inhibitory chemical substances. These simulations predicted synergistic growth inhibitory action of five combinations from a total of 21 possible pairs. All predicted non synergic pairs and four of the predicted synergic ones were confirmed in AGS cell growth real-time assays, including known synergic effects of MEK-AKT or MEK-PI3K inhibitions, along with novel synergistic effects of combined TAK1-AKT or TAK1-PI3K inhibitions.",
+      "author": "Flobak, Åsmund and Baudot, Anaïs and Remy, Elisabeth and Thommesen, Liv and Thieffry, Denis and Kuiper, Martin and Lægreid, Astrid",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1420070400000,
+      "lastChangedAt": 1420070400000,
+      "filename": "Flobak_ReducedModel_S3_Dataset.zginml",
+      "sourcePath": "models/2015-mammal-cell-fate-gastric-cancer/Flobak_ReducedModel_S3_Dataset.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2015-mammal-cell-fate-gastric-cancer/Flobak_ReducedModel_S3_Dataset.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTUtbWFtbWFsLXR1bW9yLWludmFzaW9uLW1pZ3JhdGlvbi9TdXBwTWF0X01vZGVsX01hc3Rlcl9Nb2RlbC56Z2lubWw",
+      "title": "Molecular Pathways Enabling Tumour Cell Invasion and Migration",
+      "description": "Understanding the etiology of metastasis is very important in clinical perspective, since it is estimated that metastasis accounts for 90% of cancer patient mortality. Metastasis results from a sequence of multiple steps including invasion and migration. The early stages of metastasis are tightly controlled in normal cells and can be drastically affected by malignant mutations; therefore, they might constitute the principal determinants of the overall metastatic rate even if the later stages take long to occur. To elucidate the role of individual mutations or their combinations affecting the metastatic development, a logical model has been constructed that recapitulates published experimental results of known gene perturbations on local invasion and migration processes, and predict the effect of not yet experimentally assessed mutations. The model has been validated using experimental data on transcriptome dynamics following TGF-β-dependent induction of Epithelial to Mesenchymal Transition in lung cancer cell lines. A method to associate gene expression profiles with different stable state solutions of the logical model has been developed for that purpose. In addition, we have systematically predicted alleviating (masking) and synergistic pairwise genetic interactions between the genes composing the model with respect to the probability of acquiring the metastatic phenotype. We focused on several unexpected synergistic genetic interactions leading to theoretically very high metastasis probability. Among them, the synergistic combination of Notch overexpression and p53 deletion shows one of the strongest effects, which is in agreement with a recent published experiment in a mouse model of gut cancer. The mathematical model can recapitulate experimental mutations in both cell line and mouse models. Furthermore, the model predicts new gene perturbations that affect the early steps of metastasis underlying potential intervention points for innovative therapeutic strategies in oncology.",
+      "author": "Cohen, David P. A. and Martignetti, Loredana and Robine, Sylvie and Barillot, Emmanuel and Zinovyev, Andrei and Calzone, Laurence",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1420070400000,
+      "lastChangedAt": 1420070400000,
+      "filename": "SuppMat_Model_Master_Model.zginml",
+      "sourcePath": "models/2015-mammal-tumor-invasion-migration/SuppMat_Model_Master_Model.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2015-mammal-tumor-invasion-migration/SuppMat_Model_Master_Model.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTUtbWFtbWFsLXR1bW9yLWludmFzaW9uLW1pZ3JhdGlvbi9TdXBwTWF0X01vZGVsX01vZE5ldC56Z2lubWw",
+      "title": "Molecular Pathways Enabling Tumour Cell Invasion and Migration",
+      "description": "Understanding the etiology of metastasis is very important in clinical perspective, since it is estimated that metastasis accounts for 90% of cancer patient mortality. Metastasis results from a sequence of multiple steps including invasion and migration. The early stages of metastasis are tightly controlled in normal cells and can be drastically affected by malignant mutations; therefore, they might constitute the principal determinants of the overall metastatic rate even if the later stages take long to occur. To elucidate the role of individual mutations or their combinations affecting the metastatic development, a logical model has been constructed that recapitulates published experimental results of known gene perturbations on local invasion and migration processes, and predict the effect of not yet experimentally assessed mutations. The model has been validated using experimental data on transcriptome dynamics following TGF-β-dependent induction of Epithelial to Mesenchymal Transition in lung cancer cell lines. A method to associate gene expression profiles with different stable state solutions of the logical model has been developed for that purpose. In addition, we have systematically predicted alleviating (masking) and synergistic pairwise genetic interactions between the genes composing the model with respect to the probability of acquiring the metastatic phenotype. We focused on several unexpected synergistic genetic interactions leading to theoretically very high metastasis probability. Among them, the synergistic combination of Notch overexpression and p53 deletion shows one of the strongest effects, which is in agreement with a recent published experiment in a mouse model of gut cancer. The mathematical model can recapitulate experimental mutations in both cell line and mouse models. Furthermore, the model predicts new gene perturbations that affect the early steps of metastasis underlying potential intervention points for innovative therapeutic strategies in oncology.",
+      "author": "Cohen, David P. A. and Martignetti, Loredana and Robine, Sylvie and Barillot, Emmanuel and Zinovyev, Andrei and Calzone, Laurence",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1420070400000,
+      "lastChangedAt": 1420070400000,
+      "filename": "SuppMat_Model_ModNet.zginml",
+      "sourcePath": "models/2015-mammal-tumor-invasion-migration/SuppMat_Model_ModNet.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2015-mammal-tumor-invasion-migration/SuppMat_Model_ModNet.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTYtbWFtbWFsLWdlcm9jb252ZXJzaW9uL01vZGVsVDJETS56Z2lubWw",
+      "title": "Boolean model of geroconversion",
+      "description": "GINsim model file (corrected, December 2016)",
+      "author": "Verlingue, Loic and Dugourd, Aurélien and Stoll, Gautier and Barillot, Emmanuel and Calzone, Laurence and Londoño-Vallejo, Arturo",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1451606400000,
+      "lastChangedAt": 1451606400000,
+      "filename": "ModelT2DM.zginml",
+      "sourcePath": "models/2016-mammal-geroconversion/ModelT2DM.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2016-mammal-geroconversion/ModelT2DM.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTYtbWFtbWFsLWhzcGMtbXNjLWNvbW11bmljYXRpb24vR0lOc2ltX0hTUENfTVNDLnpnaW5tbA",
+      "title": "Communication pathways between Hematopoietic Stem Progenitor Cells (HSPCs) and Mesenchymal Stromal Cells (MSCs)",
+      "description": "Lineage fate decisions of hematopoietic cells depend on intrinsic factors and extrinsic signals provided by the bone marrow microenvironment, where they reside. Abnormalities in composition and function of hematopoietic niches have been proposed as key contributors of acute lymphoblastic leukemia(ALL) progression. Our previous experimental findings strongly suggest that pro- inflammatory cues contribute to mesenchymal niche abnormalities that result in maintenance of ALL precursor cells at the expense of normal hematopoiesis. Here, we propose a molecular regulatory network interconnecting the major communication pathways between hematopoietic stem and progenitor cells (HSPCs) and mesenchymal stromal cells (MSCs) within the bone marrow. Dynamical analysis of the network as a Boolean model reveals two stationary states that can be interpreted as the intercellular contact status. Furthermore, simulations describe the molecular patterns observed during experimental proliferation and activation. Importantly, our model predicts instability in the CXCR4/CXCL12 and VLA4/VCAM1 interactions following microenvironmental perturbation due by temporal signaling from Toll like receptors (TLRs) ligation. Therefore, aberrant expression of NF-κB induced by intrinsic or extrinsic factors may contribute to create a tumor microenvironment where a negative feedback loop inhibiting CXCR4/CXCL12 and VLA4/VCAM1 cellular communication axes allows for the maintenance of malignant cells.",
+      "author": "Enciso, Jennifer and Mayani, Hector and Mendoza, Luis and Pelayo, Rosana",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1451606400000,
+      "lastChangedAt": 1451606400000,
+      "filename": "GINsim_HSPC_MSC.zginml",
+      "sourcePath": "models/2016-mammal-hspc-msc-communication/GINsim_HSPC_MSC.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2016-mammal-hspc-msc-communication/GINsim_HSPC_MSC.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTYtbWFtbWFsLWNlbGwtY3ljbGUvVHJheW5hcmRfQm9vbGVhbl9NYW1DQ19BcHIyMDE2LnpnaW5tbA",
+      "title": "Multilevel mammalian cell cycle model",
+      "description": "This model is an extension of the seminal model of the G1/S restriction point control of mammalian cell cycle, published by Fauré et al 1 . We used model-checking and computing tree logics (CTL) to progressively refine Fauré's model in order to fit recent experimental observations. The resulting model accounts for the sequential activation of cyclins, the role of Skp2, and emphasizes a multifunctional role for the cell cycle inhibitor Rb. We provide GINsim and SBML versions of the original multivalued model as well as of a Boolean translation.",
+      "author": "Traynard, Pauline and Fauré, Adrien and Fages, François and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1451606400000,
+      "lastChangedAt": 1451606400000,
+      "filename": "Traynard_Boolean_MamCC_Apr2016.zginml",
+      "sourcePath": "models/2016-mammal-cell-cycle/Traynard_Boolean_MamCC_Apr2016.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2016-mammal-cell-cycle/Traynard_Boolean_MamCC_Apr2016.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTYtbWFtbWFsLWNlbGwtY3ljbGUvVHJheW5hcmRfTXVsdGlMZXZlbF9NYW1DQ19BcHIyMDE2LnpnaW5tbA",
+      "title": "Multilevel mammalian cell cycle model",
+      "description": "This model is an extension of the seminal model of the G1/S restriction point control of mammalian cell cycle, published by Fauré et al 1 . We used model-checking and computing tree logics (CTL) to progressively refine Fauré's model in order to fit recent experimental observations. The resulting model accounts for the sequential activation of cyclins, the role of Skp2, and emphasizes a multifunctional role for the cell cycle inhibitor Rb. We provide GINsim and SBML versions of the original multivalued model as well as of a Boolean translation.",
+      "author": "Traynard, Pauline and Fauré, Adrien and Fages, François and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1451606400000,
+      "lastChangedAt": 1451606400000,
+      "filename": "Traynard_MultiLevel_MamCC_Apr2016.zginml",
+      "sourcePath": "models/2016-mammal-cell-cycle/Traynard_MultiLevel_MamCC_Apr2016.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2016-mammal-cell-cycle/Traynard_MultiLevel_MamCC_Apr2016.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTYtbWFtbWFsLXNleC1kZXRlcm1pbmF0aW9uL3ByaW1hcnlfc2V4X2RldGVybWluYXRpb25fMi56Z2lubWw",
+      "title": "Primary sex determination of placental mammals",
+      "description": "",
+      "author": "Sánchez, Lucas and Chaouiya, Claudine",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1451606400000,
+      "lastChangedAt": 1451606400000,
+      "filename": "primary_sex_determination_2.zginml",
+      "sourcePath": "models/2016-mammal-sex-determination/primary_sex_determination_2.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2016-mammal-sex-determination/primary_sex_determination_2.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTYtbWFtbWFsLXNleC1kZXRlcm1pbmF0aW9uL3ByaW1hcnlfc2V4X2RldGVybWluYXRpb25fMS56Z2lubWw",
+      "title": "Primary sex determination of placental mammals",
+      "description": "",
+      "author": "Sánchez, Lucas and Chaouiya, Claudine",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1451606400000,
+      "lastChangedAt": 1451606400000,
+      "filename": "primary_sex_determination_1.zginml",
+      "sourcePath": "models/2016-mammal-sex-determination/primary_sex_determination_1.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2016-mammal-sex-determination/primary_sex_determination_1.zginml",
+      "format": "ZGINML"
+    },
+    {
+      "id": "bW9kZWxzLzIwMTYtZHJvc29waGlsYS1tZXNvZGVybS1zcGVjaWZpY2F0aW9uL0Ryb3NvTWVzb0xvZ01vZGVsLnpnaW5tbA",
+      "title": "Drosophila mesoderm specification",
+      "description": "Model file to be open with GINsim",
+      "author": "Mbodj, Abibatou and Gustafson, E. Hilary and Ciglar, Lucia and Junion, Guillaume and Gonzalez, Aitor and Girardot, Charles and Perrin, Laurent and Furlong, Eileen E. M. and Thieffry, Denis",
+      "tags": [
+        "GINML"
+      ],
+      "createdAt": 1451606400000,
+      "lastChangedAt": 1451606400000,
+      "filename": "DrosoMesoLogModel.zginml",
+      "sourcePath": "models/2016-drosophila-mesoderm-specification/DrosoMesoLogModel.zginml",
+      "downloadUrl": "https://raw.githubusercontent.com/GINsim/GINsim.github.io/master/models/2016-drosophila-mesoderm-specification/DrosoMesoLogModel.zginml",
+      "format": "ZGINML"
+    }
+  ],
+  "filteredOut": []
+}
