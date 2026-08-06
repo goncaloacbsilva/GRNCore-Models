@@ -62,6 +62,7 @@ export class BiomodelsApiClient {
     const response = await this.withRetries(() =>
       this.client.get<BiomodelsIdentifiersResponse>("/model/identifiers", {
         params: {
+          isprivate: false,
           format: "json",
         },
       }),

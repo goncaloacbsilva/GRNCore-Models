@@ -7,6 +7,7 @@ import { mapBiomodelsEntryToMetadata } from '../lib/biomodels/mapper.js'
 export class BiomodelsScrapper extends AbstractCatalogScrapper<BiomodelsCatalog> {
     private static readonly DETAILS_CONCURRENCY = 4
     private static readonly DETAILS_REQUEST_INTERVAL_MS = 150
+    private discoveredModelsPromise?: Promise<BiomodelsSearchItem[]>
 
     constructor(
         catalogDirectory: string,
@@ -27,8 +28,13 @@ export class BiomodelsScrapper extends AbstractCatalogScrapper<BiomodelsCatalog>
     }
 
     protected async fetchUnsynced(catalog: BiomodelsCatalog): Promise<string[]> {
-        this.log('fetching BioModels identifier list')
-        const remoteIds = new Set(await this.apiClient.fetchIdentifiers())
+        this.log('fetching BioModels SBML logical model records')
+        const discoveredModels = await this.fetchDiscoveredModels()
+        const remoteIds = new Set(
+            discoveredModels
+                .map((remoteModel) => getRemoteId(remoteModel))
+                .filter((id): id is string => typeof id === 'string' && id.length > 0)
+        )
         const catalogIds = new Set(catalog.models.map((model) => model.id))
         const filteredOutIds = new Set(catalog.filteredOut)
         const incompleteIds = catalog.models
@@ -56,7 +62,7 @@ export class BiomodelsScrapper extends AbstractCatalogScrapper<BiomodelsCatalog>
         const requestedIds = new Set(ids)
         const filteredOutIds = new Set(catalog.filteredOut)
         this.log(`syncing ${requestedIds.size} BioModels model(s)`)
-        const discoveredModels = await this.apiClient.fetchAllSbmlModels()
+        const discoveredModels = await this.fetchDiscoveredModels()
         this.log(`fetched ${discoveredModels.length} SBML model record(s) from search`)
 
         const syncedModels = new Map(catalog.models.map((model) => [model.id, model]))
@@ -131,6 +137,12 @@ export class BiomodelsScrapper extends AbstractCatalogScrapper<BiomodelsCatalog>
             models: [...syncedModels.values()],
             filteredOut: [...filteredOutIds].sort(),
         }
+    }
+
+    private fetchDiscoveredModels(): Promise<BiomodelsSearchItem[]> {
+        this.discoveredModelsPromise ??= this.apiClient.fetchAllSbmlModels()
+
+        return this.discoveredModelsPromise
     }
 }
 

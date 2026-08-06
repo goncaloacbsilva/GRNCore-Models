@@ -2,7 +2,7 @@ import { mkdtemp, readFile, writeFile } from 'node:fs/promises'
 import os from 'node:os'
 import path from 'node:path'
 
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it, vi } from 'vitest'
 
 import { BiomodelsScrapper } from '../src/scrappers/biomodels-scrapper.js'
 
@@ -18,8 +18,14 @@ describe('BiomodelsScrapper', () => {
     it('filters already synced and filtered out ids in fetchUnsynced', async () => {
         const directory = await mkdtemp(path.join(os.tmpdir(), 'biomodels-'))
         const scrapper = new TestableBiomodelsScrapper(directory, {
-            fetchIdentifiers: async () => ['A', 'B', 'C'],
-            fetchAllSbmlModels: async () => [],
+            fetchIdentifiers: async () => {
+                throw new Error('fetchIdentifiers should not be called')
+            },
+            fetchAllSbmlModels: async () => [
+                { id: 'A' },
+                { id: 'B' },
+                { id: 'C' },
+            ],
             fetchModelDetails: async () => ({ description: '' }),
         } as never)
 
@@ -44,8 +50,13 @@ describe('BiomodelsScrapper', () => {
     it('requeues incomplete catalog entries in fetchUnsynced', async () => {
         const directory = await mkdtemp(path.join(os.tmpdir(), 'biomodels-'))
         const scrapper = new TestableBiomodelsScrapper(directory, {
-            fetchIdentifiers: async () => ['A', 'B'],
-            fetchAllSbmlModels: async () => [],
+            fetchIdentifiers: async () => {
+                throw new Error('fetchIdentifiers should not be called')
+            },
+            fetchAllSbmlModels: async () => [
+                { id: 'A' },
+                { id: 'B' },
+            ],
             fetchModelDetails: async () => ({ description: '' }),
         } as never)
 
@@ -69,26 +80,29 @@ describe('BiomodelsScrapper', () => {
 
     it('syncs models and persists filteredOut ids', async () => {
         const directory = await mkdtemp(path.join(os.tmpdir(), 'biomodels-'))
+        const fetchAllSbmlModels = vi.fn(async () => [
+            {
+                id: 'BIO1',
+                title: 'Bio 1',
+                format: 'SBML',
+                authors: ['Author 1'],
+                submissionDate: '2024-01-01T00:00:00.000Z',
+                lastModified: '2024-01-02T00:00:00.000Z',
+            },
+            {
+                id: 'BIO2',
+                title: 'Bio 2',
+                format: 'SBML',
+                authors: ['Author 2'],
+                submissionDate: '2024-01-03T00:00:00.000Z',
+                lastModified: '2024-01-04T00:00:00.000Z',
+            },
+        ])
         const scrapper = new BiomodelsScrapper(directory, {
-            fetchIdentifiers: async () => ['BIO1', 'BIO2', 'BIO3'],
-            fetchAllSbmlModels: async () => [
-                {
-                    id: 'BIO1',
-                    title: 'Bio 1',
-                    format: 'SBML',
-                    authors: ['Author 1'],
-                    submissionDate: '2024-01-01T00:00:00.000Z',
-                    lastModified: '2024-01-02T00:00:00.000Z',
-                },
-                {
-                    id: 'BIO2',
-                    title: 'Bio 2',
-                    format: 'SBML',
-                    authors: ['Author 2'],
-                    submissionDate: '2024-01-03T00:00:00.000Z',
-                    lastModified: '2024-01-04T00:00:00.000Z',
-                },
-            ],
+            fetchIdentifiers: async () => {
+                throw new Error('fetchIdentifiers should not be called')
+            },
+            fetchAllSbmlModels,
             fetchModelDetails: async (id: string) => ({
                 description: `<notes><body><div class="dc:description"><p>Description ${id.slice(-1)}</p></div></body></notes>`,
             }),
@@ -111,7 +125,8 @@ describe('BiomodelsScrapper', () => {
             Date.parse('2024-01-01T00:00:00.000Z'),
             Date.parse('2024-01-03T00:00:00.000Z'),
         ])
-        expect(catalog.filteredOut).toEqual(['BIO3'])
+        expect(catalog.filteredOut).toEqual([])
+        expect(fetchAllSbmlModels).toHaveBeenCalledOnce()
     })
 
     it('updates an existing incomplete model instead of appending a duplicate', async () => {
@@ -139,7 +154,9 @@ describe('BiomodelsScrapper', () => {
         )
 
         const scrapper = new BiomodelsScrapper(directory, {
-            fetchIdentifiers: async () => ['BIO1'],
+            fetchIdentifiers: async () => {
+                throw new Error('fetchIdentifiers should not be called')
+            },
             fetchAllSbmlModels: async () => [
                 {
                     id: 'BIO1',
