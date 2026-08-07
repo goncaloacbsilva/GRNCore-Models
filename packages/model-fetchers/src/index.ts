@@ -1,5 +1,5 @@
 import {
-    listSupportedSourceKeys,
+    listFetcherSourceKeys,
     type SourceKey,
 } from '../../../shared/source-registry.js'
 import { BiomodelsModelFetcher } from './lib/biomodels/biomodels-fetcher.js'
@@ -20,7 +20,7 @@ export { GinsimModelFetcher }
 export type { FetchedCatalogs, FetchedModel, ModelFetcher }
 
 export function listSupportedSources(): SourceKey[] {
-    return listSupportedSourceKeys()
+    return listFetcherSourceKeys()
 }
 
 export function getModelFetcher(source: SourceKey): ModelFetcher {

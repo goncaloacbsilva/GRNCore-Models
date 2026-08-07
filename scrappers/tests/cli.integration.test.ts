@@ -69,7 +69,7 @@ vi.mock('../src/lib/ginsim/api.js', async () => {
 })
 
 describe('runRegisteredScrappers', () => {
-    it('updates the BioModels catalog through the registry entrypoint', async () => {
+    it('runs only scraper-enabled sources through the registry entrypoint', async () => {
         const directory = await mkdtemp(path.join(os.tmpdir(), 'cli-'))
         const catalogDirectory = path.join(directory, 'catalog')
 
@@ -87,11 +87,20 @@ describe('runRegisteredScrappers', () => {
             filteredOut: string[]
         }
 
-        expect(catalog.models.map((model) => model.id)).toEqual(['BIO1'])
-        expect(catalog.models[0]?.description).toBe('Description 1')
-        expect(catalog.models[0]?.createdAt).toBe(
-            Date.parse('2024-01-01T00:00:00.000Z')
-        )
+        expect(catalog.models).toEqual([])
         expect(catalog.filteredOut).toEqual([])
+        expect(fetchAllSbmlModels).not.toHaveBeenCalled()
+
+        const ginsimRaw = await readFile(
+            path.join(catalogDirectory, 'ginsim.json'),
+            'utf8'
+        )
+        const ginsimCatalog = JSON.parse(ginsimRaw) as {
+            sourceCommit: string
+            models: unknown[]
+        }
+
+        expect(ginsimCatalog.sourceCommit).toBe('ginsim-commit')
+        expect(ginsimCatalog.models).toEqual([])
     })
 })

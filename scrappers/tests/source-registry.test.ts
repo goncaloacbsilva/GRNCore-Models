@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest'
 
 import {
     resolveSupportedSources,
-    listSupportedSourceKeys,
+    listScraperSourceKeys,
 } from '../../shared/source-registry.js'
 import { SCRAPPER_FACTORIES } from '../src/index.js'
 
@@ -29,9 +29,9 @@ describe('source registry', () => {
         ).toEqual(['full-source'])
     })
 
-    it('keeps scrapper registrations aligned with supported sources', () => {
+    it('keeps scrapper registrations aligned with scraper-enabled sources', () => {
         expect(Object.keys(SCRAPPER_FACTORIES).sort()).toEqual(
-            listSupportedSourceKeys().slice().sort()
+            listScraperSourceKeys().slice().sort()
         )
     })
 })

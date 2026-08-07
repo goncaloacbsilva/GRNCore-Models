@@ -2,25 +2,26 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 import {
-    listSupportedSourceKeys,
+    listScraperSourceKeys,
     type SourceKey,
 } from '../../shared/source-registry.js'
-import { BiomodelsScrapper } from './scrappers/biomodels-scrapper.js'
+// import { BiomodelsScrapper } from './scrappers/biomodels-scrapper.js'
 import { GinsimScrapper } from './scrappers/ginsim-scrapper.js'
 import type { AbstractCatalogScrapper } from './lib/catalog/abstract-catalog-scrapper.js'
 
-export const SCRAPPER_FACTORIES: Record<
+export const SCRAPPER_FACTORIES: Partial<Record<
     SourceKey,
     (catalogDirectory: string) => AbstractCatalogScrapper<unknown>
-> = {
-    biomodels: (catalogDirectory: string) => new BiomodelsScrapper(catalogDirectory),
+>> = {
+    // BioModels syncing is temporarily disabled.
+    // biomodels: (catalogDirectory: string) => new BiomodelsScrapper(catalogDirectory),
     ginsim: (catalogDirectory: string) => new GinsimScrapper(catalogDirectory),
 }
 
 export async function runRegisteredScrappers(
     catalogDirectory: string
 ): Promise<void> {
-    const scrappers = listSupportedSourceKeys().map((sourceKey) => {
+    const scrappers = listScraperSourceKeys().map((sourceKey) => {
         const factory = SCRAPPER_FACTORIES[sourceKey]
         if (!factory) {
             throw new Error(`No scrapper registered for source: ${sourceKey}`)

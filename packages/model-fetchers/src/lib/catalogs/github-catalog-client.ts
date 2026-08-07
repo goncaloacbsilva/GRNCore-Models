@@ -1,6 +1,6 @@
 import axios, { type AxiosInstance } from 'axios'
 
-import { listSupportedSourceKeys, type SourceKey } from '../../../../../shared/source-registry.js'
+import { listFetcherSourceKeys, type SourceKey } from '../../../../../shared/source-registry.js'
 
 const GITHUB_RAW_BASE_URL =
     'https://raw.githubusercontent.com/goncaloacbsilva/GRNCore-Models/main'
@@ -38,7 +38,7 @@ export class GithubCatalogClient {
     }
 
     async fetchCatalogs(): Promise<FetchedCatalogs> {
-        const supportedSources = listSupportedSourceKeys()
+        const supportedSources = listFetcherSourceKeys()
         const entries = await Promise.all(
             supportedSources.map(async (source) => {
                 const catalog = await this.fetchCatalog(source)

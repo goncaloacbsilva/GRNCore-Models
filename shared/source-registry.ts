@@ -1,7 +1,9 @@
 export const SOURCE_REGISTRATIONS = [
     {
         key: 'biomodels',
-        hasScraper: true,
+        // Temporarily disabled to avoid running the BioModels scrapper.
+        // Restore to true when BioModels syncing should be re-enabled.
+        hasScraper: false,
         hasFetcher: true,
     },
     {
@@ -28,6 +30,18 @@ export function resolveSupportedSources(
 
 export function listSupportedSourceKeys(): SourceKey[] {
     return resolveSupportedSources(SOURCE_REGISTRATIONS) as SourceKey[]
+}
+
+export function listScraperSourceKeys(): SourceKey[] {
+    return SOURCE_REGISTRATIONS.filter((registration) => registration.hasScraper).map(
+        (registration) => registration.key
+    ) as SourceKey[]
+}
+
+export function listFetcherSourceKeys(): SourceKey[] {
+    return SOURCE_REGISTRATIONS.filter((registration) => registration.hasFetcher).map(
+        (registration) => registration.key
+    ) as SourceKey[]
 }
 
 export function isSourceSupported(key: string): key is SourceKey {
