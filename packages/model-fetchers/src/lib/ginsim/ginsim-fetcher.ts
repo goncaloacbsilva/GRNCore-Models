@@ -31,6 +31,7 @@ export class GinsimModelFetcher implements ModelFetcher {
       return `https://ginsim.github.io/${sourcePath
         .split("/")
         .map((part) => encodeURIComponent(part))
+        .slice(0, -1)
         .join("/")}`;
     } catch {
       return undefined;
